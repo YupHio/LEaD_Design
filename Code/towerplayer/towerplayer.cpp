@@ -1,5 +1,7 @@
 
-// g++ pulse_async_test.cpp yswavfile.cpp -I. -lpulse
+// (old) g++ pulse_async_test.cpp yswavfile.cpp -I. -lpulse
+
+// (fixed -P) g++ towerplayer.cpp yswavfile.cpp -I. -lpulse -lftdi
 
 // Usage: ./a.out <wavefile.wav>
 
