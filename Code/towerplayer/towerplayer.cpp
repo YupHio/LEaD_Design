@@ -1,9 +1,13 @@
+// Towerplayer for WIRELESS tower lights project -P
+
+// (fixed -P) Compile:  g++ towerplayer.cpp yswavfile.cpp -I. -lpulse -lftdi
+
+// (fixed -P) Usage:    ./a.out <wavefile.wav> <tanfile.tan>
+
+
 
 // (old) g++ pulse_async_test.cpp yswavfile.cpp -I. -lpulse
-
-// (fixed -P) g++ towerplayer.cpp yswavfile.cpp -I. -lpulse -lftdi
-
-// Usage: ./a.out <wavefile.wav>
+// (old) Usage: ./a.out <wavefile.wav>
 
 // This program plays a WAV file
 
