@@ -2,7 +2,7 @@
 Wireless Tower Lights Project for Senior Capstone Design
 
 ### Teammates:
-- Paul Martin
+- Adrian Beehner
 - Kevin Dorscher
 - Andrew Butler
-- Adrian Beehner
+- Paul Martin
