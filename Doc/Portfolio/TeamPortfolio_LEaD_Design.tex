@@ -110,7 +110,7 @@
 	
 	\begin{figure}[!htb]
 		\centering
-		\includegraphics[width=100mm]{assets/9-14_Project_Agenda_1.jpg}
+		\includegraphics[width=140mm]{assets/9-14_Project_Agenda_1.jpg}
 		\caption{9/14 Meeting Project Schedule \label{overflow}}
 	\end{figure}
 
@@ -121,8 +121,35 @@
 	\end{figure}
 	
 	\clearpage
-	\subsubsection{9/29/2017 Team Meeting 3 Notes}
-		Team Meeting Section: Team Meeting 3 Notes
+	\subsubsection{11/02/2017 Team Meeting 3 Notes}
+	Meeting started at 3:29 with all members present, Adrian via Zoom meeting
+
+	\noindent
+	Wiki page: Paul’s gotten it started, pages are created and have some content.\\
+	
+	\noindent
+	Meeting tomorrow with Prof. Rinker: allocate a couple hours. The plan is to discuss circuit details, 		assemble hardware to start testing basic functionality.\\ 
+	
+	\noindent
+	Hardware list(Adrian): List has been created, can hopefully be finalized and whatever new parts are 		needed 	to create a prototype can be ordered.\\
+	
+	\noindent
+	Arduino low power mode: 2 interrupt pins, potentially have to be woken up on low level trigger? Look 		more at datasheet and test Arduino this weekend or early next week.\\
+	
+	\noindent
+	Update portfolio: include everything from snapshot day, update timeline, part list/price per unit if we 	can get details from Rinker on time.\\
+\begin{itemize}
+\item Wireless design spec and wiki page information in portfolio (Paul)
+\item Arduino/Receiver design spec and client meeting section in portfolio (Kevin)
+\item  Budget decisions, part list, battery specification in portfolio (Adrian)
+\item LED design specification, timeline, and team meeting section in portfolio (Andrew)
+\item Finish wiki page (Paul)\\
+\end{itemize}
+
+Meeting adjourned at 4:10
+
+\clearpage
+
 
 \section{Client Meetings and Minutes}
 
@@ -173,8 +200,30 @@ Parts needed: transmitter, shield, USB to serial, receiver chips, light bars the
 Meeting adjourned at 4:33
 
 	\clearpage
-	\subsubsection{11/02/2017 Client Meeting 3 Notes - With Dr.Rinker}
-	All members present, Adrian via Zoom, meeting started at 3:32
+	\subsubsection{11/03/2017 Client Meeting 3 Notes - With Dr.Rinker}
+	
+	\noindent
+	Meeting started at 3:39, all members present, Adrian via Zoom meeting.\\
+	
+	\noindent
+	Constant current circuit: start with the Goofy glasses circuit, figure out what will work for us, 			modify what we need to. Diagrams using PCBArtist(4pcb.com): Each part has a schematic symbol and a 			“footprint” describing what the actual part looks like.\\
+
+	\noindent
+	Receiver (MRF chip) can send signals on the 328P’s interrupt pin! Regulator chips should function no 		matter what battery we choose, within reasonable limits, so we should be able to keep using those.\\ 
+	
+	\noindent	
+	Rinker’s going to send us the current circuit diagram so we’ll have access to parts list, details, etc.\\ 
+	
+	\noindent
+	PCBArtist lets you create the traces for the circuit board, then order the custom board based on your 		output. Print as many per sheet as possible, \$33 for each sheet, for students (60 square inches max).\\
+	
+	\noindent
+	Rinker has some breadboard type shields for Arduino that we could use for prototyping if those would be 	helpful. Could basically just add transistors between the Arduino 3.3v supply and the LEDs to create a 		prototype.\\
+	 
+	\noindent	
+	Xbee transmitter is same between Tower Lights and Goofy Glasses.\\ 	
+
+	\clearpage
 
 \section{Project Learning}
 	Technologies used to solve problems are described below. Further discussion of these technologies are left in each section's subsections.

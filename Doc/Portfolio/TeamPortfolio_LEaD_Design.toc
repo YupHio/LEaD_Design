@@ -7,27 +7,27 @@
 \contentsline {section}{\numberline {2}Team Meetings and Minutes}{6}{section.2}
 \contentsline {subsubsection}{\numberline {2.0.1}9/08/2017 Team Meeting 1 Notes}{6}{subsubsection.2.0.1}
 \contentsline {subsubsection}{\numberline {2.0.2}9/14/2017 Team Meeting 2 Notes}{6}{subsubsection.2.0.2}
-\contentsline {subsubsection}{\numberline {2.0.3}9/29/2017 Team Meeting 3 Notes}{9}{subsubsection.2.0.3}
-\contentsline {section}{\numberline {3}Client Meetings and Minutes}{9}{section.3}
-\contentsline {subsubsection}{\numberline {3.0.1}9/08/2017 Client Meeting 1 Notes - With Dr.Rinker}{9}{subsubsection.3.0.1}
-\contentsline {subsubsection}{\numberline {3.0.2}9/22/2017 Client Meeting 2 Notes - With Dr.Rinker}{10}{subsubsection.3.0.2}
-\contentsline {subsubsection}{\numberline {3.0.3}11/02/2017 Client Meeting 3 Notes - With Dr.Rinker}{11}{subsubsection.3.0.3}
-\contentsline {section}{\numberline {4}Project Learning}{11}{section.4}
-\contentsline {section}{\numberline {5}Design Goals}{12}{section.5}
-\contentsline {subsection}{\numberline {5.1}Client Needs}{12}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Project Goal}{12}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Timeline}{13}{subsection.5.3}
-\contentsline {section}{\numberline {6}Specifications and Constraints}{14}{section.6}
-\contentsline {subsection}{\numberline {6.1}Arduino / Receiver Design Specification}{14}{subsection.6.1}
-\contentsline {section}{\numberline {7}System Diagrams}{15}{section.7}
-\contentsline {subsubsection}{\numberline {7.0.1}Current Product}{15}{subsubsection.7.0.1}
-\contentsline {subsubsection}{\numberline {7.0.2}Desired Product}{15}{subsubsection.7.0.2}
-\contentsline {subsubsection}{\numberline {7.0.3}PC Running TowerPlayer}{15}{subsubsection.7.0.3}
-\contentsline {section}{\numberline {8}Analysis of Alternatives}{17}{section.8}
-\contentsline {section}{\numberline {9}Engineering Model}{18}{section.9}
-\contentsline {section}{\numberline {10}Manufacturing/Assembly Plan}{19}{section.10}
-\contentsline {section}{\numberline {11}Experimental Design}{20}{section.11}
-\contentsline {section}{\numberline {12}Data Analysis}{21}{section.12}
-\contentsline {section}{\numberline {13}Balance Sheet}{22}{section.13}
-\contentsline {section}{\numberline {14}Other Items}{23}{section.14}
-\contentsline {subsection}{\numberline {14.1}LEaD Design Team Contract}{23}{subsection.14.1}
+\contentsline {subsubsection}{\numberline {2.0.3}11/02/2017 Team Meeting 3 Notes}{9}{subsubsection.2.0.3}
+\contentsline {section}{\numberline {3}Client Meetings and Minutes}{10}{section.3}
+\contentsline {subsubsection}{\numberline {3.0.1}9/08/2017 Client Meeting 1 Notes - With Dr.Rinker}{10}{subsubsection.3.0.1}
+\contentsline {subsubsection}{\numberline {3.0.2}9/22/2017 Client Meeting 2 Notes - With Dr.Rinker}{11}{subsubsection.3.0.2}
+\contentsline {subsubsection}{\numberline {3.0.3}11/03/2017 Client Meeting 3 Notes - With Dr.Rinker}{12}{subsubsection.3.0.3}
+\contentsline {section}{\numberline {4}Project Learning}{13}{section.4}
+\contentsline {section}{\numberline {5}Design Goals}{14}{section.5}
+\contentsline {subsection}{\numberline {5.1}Client Needs}{14}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Project Goal}{14}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Timeline}{15}{subsection.5.3}
+\contentsline {section}{\numberline {6}Specifications and Constraints}{16}{section.6}
+\contentsline {subsection}{\numberline {6.1}Arduino / Receiver Design Specification}{16}{subsection.6.1}
+\contentsline {section}{\numberline {7}System Diagrams}{17}{section.7}
+\contentsline {subsubsection}{\numberline {7.0.1}Current Product}{17}{subsubsection.7.0.1}
+\contentsline {subsubsection}{\numberline {7.0.2}Desired Product}{17}{subsubsection.7.0.2}
+\contentsline {subsubsection}{\numberline {7.0.3}PC Running TowerPlayer}{17}{subsubsection.7.0.3}
+\contentsline {section}{\numberline {8}Analysis of Alternatives}{19}{section.8}
+\contentsline {section}{\numberline {9}Engineering Model}{20}{section.9}
+\contentsline {section}{\numberline {10}Manufacturing/Assembly Plan}{21}{section.10}
+\contentsline {section}{\numberline {11}Experimental Design}{22}{section.11}
+\contentsline {section}{\numberline {12}Data Analysis}{23}{section.12}
+\contentsline {section}{\numberline {13}Balance Sheet}{24}{section.13}
+\contentsline {section}{\numberline {14}Other Items}{25}{section.14}
+\contentsline {subsection}{\numberline {14.1}LEaD Design Team Contract}{25}{subsection.14.1}
