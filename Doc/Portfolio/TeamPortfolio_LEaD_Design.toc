@@ -29,5 +29,8 @@
 \contentsline {section}{\numberline {11}Experimental Design}{22}{section.11}
 \contentsline {section}{\numberline {12}Data Analysis}{23}{section.12}
 \contentsline {section}{\numberline {13}Balance Sheet}{24}{section.13}
-\contentsline {section}{\numberline {14}Other Items}{25}{section.14}
-\contentsline {subsection}{\numberline {14.1}LEaD Design Team Contract}{25}{subsection.14.1}
+\contentsline {subsubsection}{\numberline {13.0.1}Budget}{24}{subsubsection.13.0.1}
+\contentsline {subsubsection}{\numberline {13.0.2}Hardware Decisions}{24}{subsubsection.13.0.2}
+\contentsline {subsubsection}{\numberline {13.0.3}Hardware List/Cost of Materials}{25}{subsubsection.13.0.3}
+\contentsline {section}{\numberline {14}Other Items}{27}{section.14}
+\contentsline {subsection}{\numberline {14.1}LEaD Design Team Contract}{27}{subsection.14.1}
