@@ -19,18 +19,19 @@
 \contentsline {subsection}{\numberline {5.3}Timeline}{15}{subsection.5.3}
 \contentsline {section}{\numberline {6}Specifications and Constraints}{16}{section.6}
 \contentsline {subsection}{\numberline {6.1}Arduino / Receiver Design Specification}{16}{subsection.6.1}
-\contentsline {section}{\numberline {7}System Diagrams}{17}{section.7}
-\contentsline {subsubsection}{\numberline {7.0.1}Current Product}{17}{subsubsection.7.0.1}
-\contentsline {subsubsection}{\numberline {7.0.2}Desired Product}{17}{subsubsection.7.0.2}
-\contentsline {subsubsection}{\numberline {7.0.3}PC Running TowerPlayer}{17}{subsubsection.7.0.3}
-\contentsline {section}{\numberline {8}Analysis of Alternatives}{19}{section.8}
-\contentsline {section}{\numberline {9}Engineering Model}{20}{section.9}
-\contentsline {section}{\numberline {10}Manufacturing/Assembly Plan}{21}{section.10}
-\contentsline {section}{\numberline {11}Experimental Design}{22}{section.11}
-\contentsline {section}{\numberline {12}Data Analysis}{23}{section.12}
-\contentsline {section}{\numberline {13}Balance Sheet}{24}{section.13}
-\contentsline {subsubsection}{\numberline {13.0.1}Budget}{24}{subsubsection.13.0.1}
-\contentsline {subsubsection}{\numberline {13.0.2}Hardware Decisions}{24}{subsubsection.13.0.2}
-\contentsline {subsubsection}{\numberline {13.0.3}Hardware List/Cost of Materials}{25}{subsubsection.13.0.3}
-\contentsline {section}{\numberline {14}Other Items}{27}{section.14}
-\contentsline {subsection}{\numberline {14.1}LEaD Design Team Contract}{27}{subsection.14.1}
+\contentsline {subsection}{\numberline {6.2}Battery Design Specification}{17}{subsection.6.2}
+\contentsline {section}{\numberline {7}System Diagrams}{19}{section.7}
+\contentsline {subsubsection}{\numberline {7.0.1}Current Product}{19}{subsubsection.7.0.1}
+\contentsline {subsubsection}{\numberline {7.0.2}Desired Product}{19}{subsubsection.7.0.2}
+\contentsline {subsubsection}{\numberline {7.0.3}PC Running TowerPlayer}{19}{subsubsection.7.0.3}
+\contentsline {section}{\numberline {8}Analysis of Alternatives}{21}{section.8}
+\contentsline {section}{\numberline {9}Engineering Model}{22}{section.9}
+\contentsline {section}{\numberline {10}Manufacturing/Assembly Plan}{23}{section.10}
+\contentsline {section}{\numberline {11}Experimental Design}{24}{section.11}
+\contentsline {section}{\numberline {12}Data Analysis}{25}{section.12}
+\contentsline {section}{\numberline {13}Balance Sheet}{26}{section.13}
+\contentsline {subsubsection}{\numberline {13.0.1}Budget}{26}{subsubsection.13.0.1}
+\contentsline {subsubsection}{\numberline {13.0.2}Hardware Decisions}{26}{subsubsection.13.0.2}
+\contentsline {subsubsection}{\numberline {13.0.3}Hardware List/Cost of Materials}{27}{subsubsection.13.0.3}
+\contentsline {section}{\numberline {14}Other Items}{29}{section.14}
+\contentsline {subsection}{\numberline {14.1}LEaD Design Team Contract}{29}{subsection.14.1}

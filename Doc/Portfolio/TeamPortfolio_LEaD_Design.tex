@@ -296,7 +296,55 @@ Meeting adjourned at 4:33
 		\caption{Arduino / Receiver Design Specification \label{overflow}}
 	\end{figure}
 
-	\newpage
+	\subsection{Battery Design Specification}
+	The list below discusses the attributes for the battery specification, including the requirements, battery chemistry, voltage/capacity, and options/alternatives. Figures "9V Battery Design Specification" and "18650 Lithium Ion Battery Design Specification" corresponding to this information is also shown below.
+	
+		% Remove Bullets from item list
+		{\renewcommand\labelitemi{}
+			% Begin list
+			\begin{itemize}
+				\item \textbf{Requirements}
+					\begin{itemize}
+						\item Battery required to power the LightBar for TowerOfLights
+						\item 3 LEDS on LightBar requires 800 mA
+						\item Voltage must be within the range of 8.6 – 9.3 V (Charge)
+						\item 10.5 V to run 3 LEDs in a series
+						\item 7V for 2 LEDs in a series
+						\item Microprocessor based wireless Module distributes the power supply to LEDs on each board
+					\end{itemize}
+				\item \textbf{Chemistry}
+					\begin{itemize}
+						\item \textbf{Lithium Ion:} rechargeable battery type, due to high energy density, tiny memory effect, and low self-discharged, lithium ions move from negative electrode during discharge, and back when chargings
+						\item \textbf{Alkaline:} Popular primary battery (non-rechargeable), dependent on reaction between zing and manganese dioxide
+					\end{itemize}
+				\item \textbf{Voltage/Capacity}
+					\begin{itemize}
+						\item Each LED requires around 3.5 V and each color takes 270 mA
+						\item A 9 V battery could support two LEDs in a series, 9V batteries support a wide range of mAh, generally from 400-700 mAh
+						\item A 18650 Battery, which has 3.7 V, can be placed in a 18650 holder for 3 batteries, providing 11.1 V, enough to power 3 LEDs in a series (current LightBar setup), with 18650 supporting a range of 1600-3600 mAh
+					\end{itemize}
+				\item \textbf{Options/Alternatives}
+					\begin{itemize}
+						\item \textbf{18650 Battery:} large capacity (mAh), allowing LEDs to run longer and can be configured to run LEDs in a series, if making battery pack from these, but requires long charging
+						\item \textbf{9V Battery:} Provides smaller capacity, but faster recharge rate. Can only run 2 LEDs for a single 9 V
+					\end{itemize}
+			\end{itemize}
+	
+		\begin{figure}[!htb]
+			\centering
+			\includegraphics[width = 160mm, height = 100mm]{assets/9V_Battery.jpg}
+			\caption{9V Battery Design Specification \label{overflow}}
+		\end{figure}
+		
+		\begin{figure}[!htb]
+			\centering
+			\includegraphics[width = 160mm, height = 100mm]{assets/18650_Battery.jpg}
+			\caption{18650 Lithium Ion Battery Design Specification \label{overflow}}
+		\end{figure}
+		
+	% Create new Page (NEED TO USE clearpage because we have pictures that will affect it!)
+	\clearpage
+	
 
 \section{System Diagrams}
 	Discussion of symbols used, the diagrams themselves, and the software used for the diagrams is discussed below.
@@ -375,8 +423,8 @@ Discussion on initial budget, estimated cost for materials, components, labor, a
 				One of best microcontrollers available, affordable, and works with Arduino boards. Other microcontrollers are the LPXCpresso Boards and ARM Cortex-M4 Microcontroller, these are also affordable micrcontrollers, but they lack the simplicity and versatility that the 328P chips have. 
 				\item \textbf{"MuRF" Chip}
 				The MRF24J40MA chip is one of the best priced radio transceiver modules, with support for Zigbee protocol, which is the desired protocol for the project, it was the optimal choice. There not really any specific alternatives out there that cater to the needs of the project. Zigbee protocol was the client's desired wireless personal network protocol, and also as benefit to the project, as Zigbee is considered simpler and less expensive than other wireless personal networks such as Bluetooth and Wi-Fi.
-				\item \textbf{Xbee Sheild}
-				Adruino's main sheild for commincation wireless is the Xbee sheild, thus since the underlying hardware is using Arduino, this was the only possible choice, the price of this hardware is somewhat high, due the company Arduino having some higher pricing, but it is an essential part of the hardware.
+				\item \textbf{Arduino Sheild}
+				Shields are boards that can be plugged on top of the Arduino PCB extending its capabilities. The different shields follow the same philosophy as the original toolkit: they are easy to mount, and cheap to produce. LEaD’s shield will be used to interface the MRF chip into the LED Driver Circuit, thus since the design/decision of the LEaD's shield has not been finalized yet, the cost per unit is still unknown. factors such as cost of materials, size, and reproducibility will be taken into account.
 				\item \textbf{9V Lithium Ion Battery}
 				The choice for the 9V Battery was due to the 3 LEDs in a series requiring 10.5V in a series. The only other practical alternative was the 18650 lithium battery. However when it comes down to size, mAh, and Voltage, the 18650 battery is the better option, however price is also a large factor, and the 9V wins there.
 				\item \textbf{18650 Lithium Ion Battery}
