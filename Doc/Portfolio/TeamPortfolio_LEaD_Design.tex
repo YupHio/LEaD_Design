@@ -292,9 +292,20 @@ Meeting adjourned at 4:33
 	
 	\begin{figure}[!htb]
 		\centering
-		\includegraphics[width = 160mm, height = 160mm]{assets/Arduino_Receiver_Diagram.png}
+		\includegraphics[width = 140mm, height = 95mm]{assets/Arduino_Receiver_Diagram.png}
 		\caption{Arduino / Receiver Design Specification \label{overflow}}
 	\end{figure}
+	
+	\indent
+	Arduino / Receiver Design Specifications
+	\begin{itemize}
+		\item Multiple Arduino Atmega 328P boards fitted with a shield and   						  attached receiver chip 
+		\item Programming of the individual Arduino Atmega 328P boards using the 					  Arduino IDE (C++)
+		\item Receiver chip will delegate the sleep or wake-up modes for each 					  individual light bar
+		\item Receiver will also handle input from the transmitting X-Bee, and output 			  data to the LED driver circuit
+		\item Creation of the LED Driver circuit which will modify voltage as 						  requested by each set of LED’s to provide a constant current power flow
+		\item After modifying voltage accordingly, the LED driver circuit will output 			  the data stream from the receiver to the network that each Arduino 					  Atmega 328P is connected to
+	\end{itemize}
 
 	\subsection{Battery Design Specification}
 	The list below discusses the attributes for the battery specification, including the requirements, battery chemistry, voltage/capacity, and options/alternatives. Figures "9V Battery Design Specification" and "18650 Lithium Ion Battery Design Specification" corresponding to this information is also shown below.

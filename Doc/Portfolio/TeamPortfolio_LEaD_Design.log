@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.24)  5 NOV 2017 19:03
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.9)  5 NOV 2017 20:30
+>>>>>>> Stashed changes
 entering extended mode
 **./TeamPortfolio_LEaD_Design.tex
 (TeamPortfolio_LEaD_Design.tex
@@ -617,7 +621,10 @@ File: assets/Arduino_Receiver_Diagram.png Graphic file (type png)
 <use assets/Arduino_Receiver_Diagram.png>
 Package pdftex.def Info: assets/Arduino_Receiver_Diagram.png used on input line
  295.
-(pdftex.def)             Requested size: 455.24258pt x 455.24117pt.
+(pdftex.def)             Requested size: 398.33142pt x 270.30273pt.
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
  [16 <./assets/Arduino_Receiver_Diagram.png>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -638,16 +645,27 @@ Package pdftex.def Info: assets/18650_Battery.jpg used on input line 341.
  [17] [18 <./assets/9V_Battery.jpg> <./assets/18650_Battery.jpg>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
+<<<<<<< Updated upstream
 (hyperref)                than one, level fixed on input line 352.
+=======
+(hyperref)                than one, level fixed on input line 315.
+>>>>>>> Stashed changes
 
 <assets/What_We_Have.png, id=290, 1624.0675pt x 317.185pt>
 File: assets/What_We_Have.png Graphic file (type png)
 
 <use assets/What_We_Have.png>
+<<<<<<< Updated upstream
 Package pdftex.def Info: assets/What_We_Have.png used on input line 357.
 (pdftex.def)             Requested size: 483.69684pt x 94.46413pt.
 
 Overfull \hbox (13.94182pt too wide) in paragraph at lines 357--358
+=======
+Package pdftex.def Info: assets/What_We_Have.png used on input line 320.
+(pdftex.def)             Requested size: 483.69684pt x 94.46413pt.
+
+Overfull \hbox (13.94182pt too wide) in paragraph at lines 320--321
+>>>>>>> Stashed changes
  [][] 
  []
 
@@ -655,10 +673,17 @@ Overfull \hbox (13.94182pt too wide) in paragraph at lines 357--358
 File: assets/What_We_Want.png Graphic file (type png)
 
 <use assets/What_We_Want.png>
+<<<<<<< Updated upstream
 Package pdftex.def Info: assets/What_We_Want.png used on input line 367.
 (pdftex.def)             Requested size: 483.69684pt x 94.15962pt.
 
 Overfull \hbox (13.94182pt too wide) in paragraph at lines 367--368
+=======
+Package pdftex.def Info: assets/What_We_Want.png used on input line 330.
+(pdftex.def)             Requested size: 483.69684pt x 94.15962pt.
+
+Overfull \hbox (13.94182pt too wide) in paragraph at lines 330--331
+>>>>>>> Stashed changes
  [][] 
  []
 
@@ -668,10 +693,17 @@ Overfull \hbox (13.94182pt too wide) in paragraph at lines 367--368
 File: assets/PCRunningTowerPlayerFlowChartDiagram.png Graphic file (type png)
  <use assets/PCRunningTowerPlayerFlowChartDiagram.png>
 Package pdftex.def Info: assets/PCRunningTowerPlayerFlowChartDiagram.png used o
+<<<<<<< Updated upstream
 n input line 377.
 (pdftex.def)             Requested size: 483.69684pt x 333.9519pt.
 
 Overfull \hbox (13.94182pt too wide) in paragraph at lines 377--378
+=======
+n input line 340.
+(pdftex.def)             Requested size: 483.69684pt x 333.9519pt.
+
+Overfull \hbox (13.94182pt too wide) in paragraph at lines 340--341
+>>>>>>> Stashed changes
  [][] 
  []
 
@@ -705,7 +737,11 @@ File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
 <use assets/LEaD_Design_Team_Contract.pdf>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf used on input lin
+<<<<<<< Updated upstream
 e 457.
+=======
+e 383.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -714,7 +750,11 @@ pdfTeX warning: pdflatex.exe (file ./assets/LEaD_Design_Team_Contract.pdf): PDF
 File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 <use assets/LEaD_Design_Team_Contract.pdf>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf used on input lin
+<<<<<<< Updated upstream
 e 457.
+=======
+e 383.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -729,13 +769,21 @@ File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
 <use assets/LEaD_Design_Team_Contract.pdf, page 1>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page1 used on in
+<<<<<<< Updated upstream
 put line 457.
+=======
+put line 383.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
 <use assets/LEaD_Design_Team_Contract.pdf, page 1>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page1 used on in
+<<<<<<< Updated upstream
 put line 457.
+=======
+put line 383.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [29
 
@@ -744,19 +792,31 @@ File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
 <use assets/LEaD_Design_Team_Contract.pdf, page 1>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page1 used on in
+<<<<<<< Updated upstream
 put line 457.
+=======
+put line 383.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
 <use assets/LEaD_Design_Team_Contract.pdf, page 1>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page1 used on in
+<<<<<<< Updated upstream
 put line 457.
+=======
+put line 383.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
 <use assets/LEaD_Design_Team_Contract.pdf, page 1>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page1 used on in
+<<<<<<< Updated upstream
 put line 457.
+=======
+put line 383.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [30 <./assets/LEaD_Design_Team_Contract.pdf>]
 
@@ -767,19 +827,31 @@ File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
 <use assets/LEaD_Design_Team_Contract.pdf, page 2>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page2 used on in
+<<<<<<< Updated upstream
 put line 457.
+=======
+put line 383.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
 <use assets/LEaD_Design_Team_Contract.pdf, page 2>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page2 used on in
+<<<<<<< Updated upstream
 put line 457.
+=======
+put line 383.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
 <use assets/LEaD_Design_Team_Contract.pdf, page 2>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page2 used on in
+<<<<<<< Updated upstream
 put line 457.
+=======
+put line 383.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [31 <./assets/LEaD_Design_Team_Contract.pdf>]
 
@@ -790,19 +862,31 @@ File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
 <use assets/LEaD_Design_Team_Contract.pdf, page 3>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page3 used on in
+<<<<<<< Updated upstream
 put line 457.
+=======
+put line 383.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
 <use assets/LEaD_Design_Team_Contract.pdf, page 3>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page3 used on in
+<<<<<<< Updated upstream
 put line 457.
+=======
+put line 383.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
 <use assets/LEaD_Design_Team_Contract.pdf, page 3>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page3 used on in
+<<<<<<< Updated upstream
 put line 457.
+=======
+put line 383.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [32 <./assets/LEaD_Design_Team_Contract.pdf>]
 
@@ -813,18 +897,27 @@ File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
 <use assets/LEaD_Design_Team_Contract.pdf, page 4>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page4 used on in
+<<<<<<< Updated upstream
 put line 457.
+=======
+put line 383.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
 <use assets/LEaD_Design_Team_Contract.pdf, page 4>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page4 used on in
+<<<<<<< Updated upstream
 put line 457.
+=======
+put line 383.
+>>>>>>> Stashed changes
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
 <use assets/LEaD_Design_Team_Contract.pdf, page 4>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page4 used on in
+<<<<<<< Updated upstream
 put line 457.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [33 <./assets/LEaD_Design_Team_Contract.pdf>]
@@ -833,6 +926,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 461.
  (TeamPortfolio_LEaD_Design.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 461.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 461.
+=======
+put line 383.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [29 <./assets/LEaD_Design_Team_Contract.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 387.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 387.
+ (TeamPortfolio_LEaD_Design.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 387.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 387.
+>>>>>>> Stashed changes
 Package rerunfilecheck Info: File `TeamPortfolio_LEaD_Design.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: E62D0144C7754883404C6DD4908F6A81;2652.
@@ -840,6 +943,7 @@ ed.
 
 LaTeX Warning: There were multiply-defined labels.
 
+<<<<<<< Updated upstream
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 461.
  )
 (\end occurred inside a group at level 2)
@@ -847,6 +951,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 461.
 ### simple group (level 2) entered at line 419 ({)
 ### simple group (level 1) entered at line 303 ({)
 ### bottom level 
+=======
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 387.
+ ) 
+>>>>>>> Stashed changes
 Here is how much of TeX's memory you used:
  8097 strings out of 493333
  117987 string characters out of 3139191
@@ -854,6 +962,7 @@ Here is how much of TeX's memory you used:
  11415 multiletter control sequences out of 15000+200000
  14580 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
+<<<<<<< Updated upstream
  40i,19n,49p,1212b,660s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
 x12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
@@ -864,6 +973,16 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2
 /type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmtt12.pfb>
 Output written on TeamPortfolio_LEaD_Design.pdf (33 pages, 2137647 bytes).
+=======
+ 40i,19n,49p,1195b,452s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Program Files (x86)/Latex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/P
+rogram Files (x86)/Latex/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Program
+ Files (x86)/Latex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files (
+x86)/Latex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/La
+tex/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/Program Files (x86)/Latex/fon
+ts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on TeamPortfolio_LEaD_Design.pdf (29 pages, 1032953 bytes).
+>>>>>>> Stashed changes
 PDF statistics:
  449 PDF objects out of 1000 (max. 8388607)
  80 named destinations out of 1000 (max. 500000)
