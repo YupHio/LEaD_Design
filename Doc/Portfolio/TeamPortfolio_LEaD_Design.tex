@@ -25,7 +25,7 @@
 \newcommand\tab[1][1cm]{\hspace*{#1}}
 
 \definecolor{myRed}{RGB}{248, 0, 0}
-\definecolor{myGreen}{RGB}{0, 208, 0} %full green isn't dark enough to read
+\definecolor{myGreen}{RGB}{0, 208, 0} %full green too light -P
 \definecolor{myBlue}{RGB}{0, 0, 248}
 
 \begin{document}
@@ -41,14 +41,14 @@
   {\huge\bfseries \textcolor{myRed}{L}\textcolor{myGreen}{E}a\textcolor{myBlue}{D} Design: \\ Team Portfolio\par}
     
     \title{}
-    \date{\vspace{-5ex}} %blank date
+    \date{\vspace{-5ex}} %blank date -P
     \author{%
     	\makebox[.3\linewidth]{\Large\itshape Adrian Beehner}\\Budget Director\\
     	\and \makebox[.3\linewidth]{\Large\itshape Andrew Butler}\\Documenter\\
     	\and \\ \makebox[.3\linewidth]{\Large\itshape Kevin Dorscher}\\Client Liaison\\
     	\and \\ \makebox[.3\linewidth]{\Large\itshape Paul Martin}\\Designer\\
     }
-    \let\newpage\relax\maketitle %don't make a new page pls
+    \let\newpage\relax\maketitle %don't make a new page -P
     \maketitle		
     
     \vspace{4cm} 
@@ -455,7 +455,45 @@ Meeting adjourned at 4:33
 			\end{itemize}
 	% Create new Page (NEED TO USE clearpage because we have pictures that will affect it!)
 	\clearpage
+
+	%Wireless Design Spec
+	\subsection{Wireless Design Specification}
 	
+	% Remove Bullets from item list
+	{\renewcommand\labelitemi{}
+		% Begin list
+		\begin{itemize}
+			\item \textbf{Frequency Requirements}
+			\begin{itemize}
+				\item The wireless protocol needs to have an effective range of potentially up to 100 meters. Additionally, the
+				frequency must be one that will work even in crowded venues, with lots of different cellphones, and
+				Wi-Fi signals present.
+			\end{itemize}
+			\item \textbf{Speed Requirements}
+			\begin{itemize}
+				\item The wireless protocol needs to have the ability to send enough data fast enough to keep up with the
+				Tower Lights show. Depending on the total number of light-bars, this number can change. The speed
+				requirement will also depend on how many possible colors we implement and how many frames per
+				second we will display.
+			\end{itemize}
+			\item \textbf{Packet Requirements}
+			\begin{itemize}
+				\item The information packets sent over the wireless protocol must contain all the information needed to set
+				the individual light bars to the appropriate color. There can be only one packet that will be sent to all
+				the light bars, and each light bar will be encoded with which part of the packet to read.
+			\end{itemize}
+			\item \textbf{Potential Solution}
+			%\begin{itemize}
+				%\item Zigbee Protocol
+				\begin{figure}[!htb]
+					\centering
+					\includegraphics[height = 110mm]{assets/Zigbee.png}
+					\caption{ \textbf{Zigbee Wireless Protocol} Uses Channels Above Wi-Fi \label{overflow}}
+				\end{figure}
+			%\end{itemize}
+		\end{itemize}
+		% Create new Page (NEED TO USE clearpage because we have pictures that will affect it!)
+		\clearpage	
 
 \section{System Diagrams}
 	Discussion of symbols used, the diagrams themselves, and the software used for the diagrams is discussed below.
