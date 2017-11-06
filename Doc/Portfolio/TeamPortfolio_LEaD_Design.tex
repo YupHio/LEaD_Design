@@ -413,7 +413,7 @@ Discussion on initial budget, estimated cost for materials, components, labor, a
 		The initial budget of the project itself has yet to be decided. However, the current plan should be to not go over \$500, as the budget/spending of the project should be kept to a minimum. However, as our client's needs are still somewhat 'to be decided' when it comes to how much production of products will be required. In the following subsections, everything will be with the goal in mind to try to keep costs down when ever possible, while still fulfilling client's needs, safety, environmental concerns, and so on. Budgeting is an important factor in this project, since the product is largely hardware-based (while still having some software involved). Evaluating and surveying alternatives and solutions to purchasing and building components is an essential aspect to proper Budgeting for the project.
 		
 		\subsubsection{Hardware Decisions}
-		Decisions for hardware budget are discussed in the list of topics below, each item discusses the reasons, costs, and possible alternatives that could have been taken when deciding how to properly use the budget. 
+		Decisions for hardware budget are discussed in the list of topics below, each item discusses the reasons, costs, and possible alternatives that could have been taken when deciding how to properly use the budget.
 
 		% Remove Bullets from item list
 		{\renewcommand\labelitemi{}
@@ -423,8 +423,8 @@ Discussion on initial budget, estimated cost for materials, components, labor, a
 				One of best microcontrollers available, affordable, and works with Arduino boards. Other microcontrollers are the LPXCpresso Boards and ARM Cortex-M4 Microcontroller, these are also affordable micrcontrollers, but they lack the simplicity and versatility that the 328P chips have. 
 				\item \textbf{"MuRF" Chip}
 				The MRF24J40MA chip is one of the best priced radio transceiver modules, with support for Zigbee protocol, which is the desired protocol for the project, it was the optimal choice. There not really any specific alternatives out there that cater to the needs of the project. Zigbee protocol was the client's desired wireless personal network protocol, and also as benefit to the project, as Zigbee is considered simpler and less expensive than other wireless personal networks such as Bluetooth and Wi-Fi.
-				\item \textbf{Arduino Sheild}
-				Shields are boards that can be plugged on top of the Arduino PCB extending its capabilities. The different shields follow the same philosophy as the original toolkit: they are easy to mount, and cheap to produce. LEaD’s shield will be used to interface the MRF chip into the LED Driver Circuit, thus since the design/decision of the LEaD's shield has not been finalized yet, the cost per unit is still unknown. factors such as cost of materials, size, and reproducibility will be taken into account.
+				\item \textbf{Xbee Sheild}
+				Required Shield/Board to interface with the Program that will transmit the data to the LightBoards. The price of this hardware is somewhat high, due to XBee brand, but since this unit is only required once, for whole product, client will be providing the unit free of charge, this not affecting the budget. Unless the product changed the whole wireless personal network to something other than Zigbee, then this was the only available hardware. 
 				\item \textbf{9V Lithium Ion Battery}
 				The choice for the 9V Battery was due to the 3 LEDs in a series requiring 10.5V in a series. The only other practical alternative was the 18650 lithium battery. However when it comes down to size, mAh, and Voltage, the 18650 battery is the better option, however price is also a large factor, and the 9V wins there.
 				\item \textbf{18650 Lithium Ion Battery}
