@@ -325,8 +325,8 @@ Meeting adjourned at 4:33
 					\end{itemize}
 				\item \textbf{Chemistry}
 					\begin{itemize}
-						\item \textbf{Lithium Ion:} rechargeable battery type, due to high energy density, tiny memory effect, and low self-discharged, lithium ions move from negative electrode during discharge, and back when chargings
-						\item \textbf{Alkaline:} Popular primary battery (non-rechargeable), dependent on reaction between zing and manganese dioxide
+						\item \textbf{Lithium Ion:} rechargeable battery type, due to high energy density, tiny memory effect, and low self-discharged, lithium ions move from negative electrode during discharge, and back when charging
+						\item \textbf{Alkaline:} Popular primary battery (non-rechargeable), dependent on reaction between zinc and manganese dioxide
 					\end{itemize}
 				\item \textbf{Voltage/Capacity}
 					\begin{itemize}
@@ -353,6 +353,40 @@ Meeting adjourned at 4:33
 			\caption{18650 Lithium Ion Battery Design Specification \label{overflow}}
 		\end{figure}
 		
+	% Create new Page (NEED TO USE clearpage because we have pictures that will affect it!)
+	\clearpage
+
+	\subsection{LED Design Specification}
+	LED specifications and 2 potential solutions detailed below.
+	
+		% Remove Bullets from item list
+		{\renewcommand\labelitemi{}
+			% Begin list
+			\begin{itemize}
+				\item \textbf{Specifications}
+					\begin{itemize}
+						\item 3 LEDs of each color (red, green, blue) per room
+						\item Uses constant current (270-300 mA)
+						\item Red LEDs drop ~2.5V per diode
+						\item Blue and green LEDs drop ~3.5V per diode
+						\item Colors are displayed with pulse-frequency modulation, as each diode can only be fully on or fully off at any moment
+					\end{itemize}
+				\item \textbf{Circuit Options}
+					\begin{itemize}
+						\item \textbf{Series:}
+							\begin{figure}[!htb]
+								\centering
+								\includegraphics[height = 100mm]{assets/SeriesLED.jpg}
+								\caption{Circuit diagram with LEDs in series \label{overflow}}
+							\end{figure}
+						\item \textbf{Parallel:}
+							\begin{figure}[!htb]
+								\centering
+								\includegraphics[height = 100mm]{assets/ParallelLED.jpg}
+								\caption{Circuit diagram with LEDs in parallel \label{overflow}}
+							\end{figure}
+					\end{itemize}
+			\end{itemize}
 	% Create new Page (NEED TO USE clearpage because we have pictures that will affect it!)
 	\clearpage
 	
