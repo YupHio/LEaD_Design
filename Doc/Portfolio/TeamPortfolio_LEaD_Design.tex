@@ -294,7 +294,88 @@ Meeting adjourned at 4:33
 \section{Project Learning}
 	Technologies used to solve problems are described below. Further discussion of these technologies are left in each section's subsections.
 
-	\newpage
+	\subsection{Team Info}
+	 A discussion of the various pieces of info that relates to team information is provided below.
+	
+	% Remove Bullets from item list
+	{\renewcommand\labelitemi{}
+		% Begin list
+		\begin{itemize}
+			\item \textbf{Team Name}
+			\begin{itemize}
+				\item LEaD Design
+			\end{itemize}
+			\item \textbf{Team Members}
+			\begin{itemize}
+				\item Adrian Beehner
+				\item Andrew Butler
+				\item Kevin Dorscher
+				\item Paul Martin
+			\end{itemize}
+			\item \textbf{Sponsor}
+			\begin{itemize}
+				\item Dr. Robert Rinker
+			\end{itemize}
+		\end{itemize}
+	
+		\begin{figure}[!htb]
+			\centering
+			\includegraphics[width = 70mm, height = 90mm]{assets/Team_Info.png}
+			\caption{Team Info \label{overflow}}
+		\end{figure}
+	
+	\subsection{Proof of Design}
+		A discussion of the various components is shown below, providing evidence of components working together.
+	
+		% Remove Bullets from item list
+		{\renewcommand\labelitemi{}
+			% Begin list
+			\begin{itemize}
+				\item \textbf{LightBar}
+				\begin{itemize}
+					\item LightBar designed similar to original "Tower of Lights" one
+					\item 1 in x 2 in
+					\item Size supports common sizes that are used for PCBs and LEDs
+				\end{itemize}
+				\item \textbf{LED Driver Circuit}
+				\begin{itemize}
+					\item Similar to "Goofy Glasses" Circuit
+					\item Schematic will be very similar, besides the fact that higher voltage and some other additional items will be added
+				\end{itemize}
+				\item \textbf{Towerplayer Program}
+				\begin{itemize}
+					\item Modified from various files from original "Tower Player" programs:
+					\begin{itemize}
+						\item towerarduino.ino
+						\item towerplayer.cpp
+						\item yswavfile.cpp
+						\item yswavfile.h
+					\end{itemize}
+				\end{itemize}
+				\item \textbf{LED}
+				\begin{itemize}
+					\item LEDs already function on "Goofy Glasses"
+					\item Similar design, with battery and circuit providing the power and data to correctly display specific color for LED
+					\item Layout of LEDs will actually follow similar design as the original "Tower of Lights" LightBar.
+				\end{itemize}
+				\item \textbf{Battery}
+				\begin{itemize}
+					\item 9V Lithium Ion Battery already working on Goofy Glasses
+					\item Currently provides 30 minutes of run time
+					\item Current Battery choices are between 9V Lithium Ion and 18650 (which would last longer)
+				\end{itemize}
+			\end{itemize}
+		
+		A diagram that correlates to the information that is provided above discussing the proof of design id shown below. Images are provided in the diagram to help provide a visual for certain aspects.
+	
+		\begin{figure}[!htb]
+			\centering
+			\includegraphics[width = 120mm, height = 140mm]{assets/Proof_Of_Design.png}
+			\caption{Proof of Design \label{overflow}}
+		\end{figure}
+
+	% Create new Page (NEED TO USE clearpage because we have pictures that will affect it!)
+	\clearpage
   
 \section{Design Goals}
 	Client needs and project goals are discussed below. A Timeline for these is also included. Discussion of revision of goals, and addition of any new goals is also discussed below.
