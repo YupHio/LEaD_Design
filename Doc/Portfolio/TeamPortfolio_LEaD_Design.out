@@ -16,28 +16,34 @@
 \BOOKMARK [2][-]{subsection.4.1}{Team Info}{section.4}% 16
 \BOOKMARK [2][-]{subsection.4.2}{Proof of Design}{section.4}% 17
 \BOOKMARK [2][-]{subsection.4.3}{Problem Statement}{section.4}% 18
-\BOOKMARK [1][-]{section.5}{Design Goals}{}% 19
-\BOOKMARK [2][-]{subsection.5.1}{Client Needs}{section.5}% 20
-\BOOKMARK [2][-]{subsection.5.2}{Project Goal}{section.5}% 21
-\BOOKMARK [2][-]{subsection.5.3}{Timeline}{section.5}% 22
-\BOOKMARK [1][-]{section.6}{Specifications and Constraints}{}% 23
-\BOOKMARK [2][-]{subsection.6.1}{Arduino / Receiver Design Specification}{section.6}% 24
-\BOOKMARK [2][-]{subsection.6.2}{Battery Design Specification}{section.6}% 25
-\BOOKMARK [2][-]{subsection.6.3}{LED Design Specification}{section.6}% 26
-\BOOKMARK [2][-]{subsection.6.4}{Wireless Design Specification}{section.6}% 27
-\BOOKMARK [1][-]{section.7}{System Diagrams}{}% 28
-\BOOKMARK [2][-]{subsection.7.1}{Current Product}{section.7}% 29
-\BOOKMARK [2][-]{subsection.7.2}{Desired Product}{section.7}% 30
-\BOOKMARK [2][-]{subsection.7.3}{PC Running TowerPlayer}{section.7}% 31
-\BOOKMARK [1][-]{section.8}{Analysis of Alternatives}{}% 32
-\BOOKMARK [1][-]{section.9}{Engineering Model}{}% 33
-\BOOKMARK [1][-]{section.10}{Manufacturing/Assembly Plan}{}% 34
-\BOOKMARK [1][-]{section.11}{Experimental Design}{}% 35
-\BOOKMARK [1][-]{section.12}{Data Analysis}{}% 36
-\BOOKMARK [1][-]{section.13}{Balance Sheet}{}% 37
-\BOOKMARK [2][-]{subsection.13.1}{Budget}{section.13}% 38
-\BOOKMARK [2][-]{subsection.13.2}{Hardware Decisions}{section.13}% 39
-\BOOKMARK [2][-]{subsection.13.3}{Hardware List/Cost of Materials}{section.13}% 40
-\BOOKMARK [1][-]{section.14}{Other Items}{}% 41
-\BOOKMARK [2][-]{subsection.14.1}{Team Wiki Page}{section.14}% 42
-\BOOKMARK [2][-]{subsection.14.2}{LEaD Design Team Contract}{section.14}% 43
+\BOOKMARK [2][-]{subsection.4.4}{General Specifications}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.5}{Final Product Vision}{section.4}% 20
+\BOOKMARK [1][-]{section.5}{Design Goals}{}% 21
+\BOOKMARK [2][-]{subsection.5.1}{Client Needs}{section.5}% 22
+\BOOKMARK [2][-]{subsection.5.2}{Project Goal}{section.5}% 23
+\BOOKMARK [2][-]{subsection.5.3}{Timeline}{section.5}% 24
+\BOOKMARK [1][-]{section.6}{Specifications and Constraints}{}% 25
+\BOOKMARK [2][-]{subsection.6.1}{Arduino / Receiver Design Specification}{section.6}% 26
+\BOOKMARK [2][-]{subsection.6.2}{Battery Design Specification}{section.6}% 27
+\BOOKMARK [2][-]{subsection.6.3}{LED Design Specification}{section.6}% 28
+\BOOKMARK [2][-]{subsection.6.4}{Wireless Design Specification}{section.6}% 29
+\BOOKMARK [1][-]{section.7}{System Diagrams}{}% 30
+\BOOKMARK [2][-]{subsection.7.1}{Current Product}{section.7}% 31
+\BOOKMARK [2][-]{subsection.7.2}{Desired Product}{section.7}% 32
+\BOOKMARK [2][-]{subsection.7.3}{PC Running TowerPlayer}{section.7}% 33
+\BOOKMARK [1][-]{section.8}{Analysis of Alternatives}{}% 34
+\BOOKMARK [2][-]{subsection.8.1}{9V Battery vs 18650 Battery}{section.8}% 35
+\BOOKMARK [2][-]{subsection.8.2}{9V Battery - 1 vs 2 Quantity}{section.8}% 36
+\BOOKMARK [1][-]{section.9}{Engineering Model}{}% 37
+\BOOKMARK [2][-]{subsection.9.1}{Design Failure Mode Effects Analysis \(DFMEA\)}{section.9}% 38
+\BOOKMARK [1][-]{section.10}{Manufacturing/Assembly Plan}{}% 39
+\BOOKMARK [2][-]{subsection.10.1}{Bill of Materials}{section.10}% 40
+\BOOKMARK [1][-]{section.11}{Experimental Design}{}% 41
+\BOOKMARK [1][-]{section.12}{Data Analysis}{}% 42
+\BOOKMARK [1][-]{section.13}{Balance Sheet}{}% 43
+\BOOKMARK [2][-]{subsection.13.1}{Budget}{section.13}% 44
+\BOOKMARK [2][-]{subsection.13.2}{Hardware Decisions}{section.13}% 45
+\BOOKMARK [2][-]{subsection.13.3}{Hardware List/Cost of Materials}{section.13}% 46
+\BOOKMARK [1][-]{section.14}{Other Items}{}% 47
+\BOOKMARK [2][-]{subsection.14.1}{Team Wiki Page}{section.14}% 48
+\BOOKMARK [2][-]{subsection.14.2}{LEaD Design Team Contract}{section.14}% 49
