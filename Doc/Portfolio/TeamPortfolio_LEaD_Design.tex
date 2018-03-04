@@ -16,7 +16,8 @@
 \newcommand{\tline}{\hspace{-2.3pt}$\bullet$ \hspace{5pt}}
 \hypersetup{colorlinks=true, linkcolor=black, urlcolor=blue}
 \setlength{\parindent}{15pt} % Indent paragraphs (automatically)
-\usepackage{pdfpages}
+\usepackage{pdfpages, caption}
+
 
 \makeatother
 \makeatletter
@@ -642,17 +643,125 @@ Meeting adjourned at 4:33
 
 \section{Analysis of Alternatives}
 	Discussion of possible alternatives and why some alternatives are better is described below. These topics include: safety, moving parts, cost, durability, compatibility, and reliability.
+	
+	\subsection{9V Battery vs 18650 Battery}
+	One of main decisions in this project was deciding whether to use a 9V battery or a 18650 litium ion battery, as they each have verya appealing and unappealing aspects about them. Before desrcibing the choice that was decided upon, its important to examine both batteries, to lay out the benefits and costs of using each in regards to topics such as safety, moving parts, cost, durability, compatibility, and reliaability.\\
+	
+	\noindent\textbf{9V Battery}
+			% Remove Bullets from item list
+			{\renewcommand\labelitemi{}
+				% Begin list
+				\begin{itemize}
+					\item \textbf{Safety}
+					\begin{itemize}
+						\item A 9V battery is considered generally safe, as long as handled fairly carefully, but in the wrong hands they can be somewhat dangerous, not to mention the chemical make up of them is harmful to the environment.
+					\end{itemize}
+					\item \textbf{Moving Parts}
+					\begin{itemize}
+						\item For the 9V Battery the circuit required a volotage of 11V, but that was if the LEDs were in a series, if they were designed in paralled, the voltage would be reduced to 3.3V. Thus this in its own way was a decision that needed to be made use two 9V batteries with higher voltage and more mAh, but at a higher cost and more moving parts, but that is not the exact topic at hand.
+					\end{itemize}
+					\item \textbf{Cost}
+					\begin{itemize}
+						\item The cost of a 9V battery can range drastically, espeically depending on the chemistry of the battery, however the customer specified that they wanted specifically lithium ion batteries, which narrowed down the focus. However, due to the range of mAh, the prices still factors in consideribly, but once again the customer had a specific range around 600 mAh, thus the cost a 9V Lithium Ion battery is around seven dollars.
+					\end{itemize}
+					\item \textbf{Durability}
+					\begin{itemize}
+						\item The reason that 9V batteries are among the most popular batteries is due to their high durability and remarkable lifespan. Most 9V lithium ion batteries have a guarantee of at least 10 years of rechargeable battery life, makign the battery a fairly competetive choice. 
+					\end{itemize}
+					\item \textbf{Compatiability}
+					\begin{itemize}
+						\item 9V Batteries are known for their wide range of compatability and work easily with a variety of configurations. 9V batteries can easily be utilized within most circuits boards (if they are designed with them in mind)
+					\end{itemize}
+					\item \textbf{Reliability}
+					\begin{itemize}
+						\item 9V Batteries are among the most reliable batteries known. It is not difficult to aquire these batteries from almost any store and know that they will provide good quality power (however brands do make a difference). Overall, they are one of the most well-known and used batteries for a reason.
+					\end{itemize}
+				\end{itemize}
+			
+	\noindent\textbf{18650 Battery}
+		% Remove Bullets from item list
+		{\renewcommand\labelitemi{}
+			% Begin list
+			\begin{itemize}
+				\item \textbf{Safety}
+				\begin{itemize}
+					\item A 18650 battery is considered highly safe as well, perhaps even above the 9V battery counterpart, due to the packaging of the batteries, whihc is usually in builk and with the positve and negatives not easily accessibile. 
+				\end{itemize}
+				\item \textbf{Moving Parts}
+				\begin{itemize}
+					\item For the 18650, each one is 3.3V, while the circuit requires at most 11V, so once again if the LEDs were in a series, it would requires three whole 18650 batteries, which are considerably large. This factored into the decision, as more batteries can produce more issues, however even running the LEDs in parallale the voltage would be considered too close to only use one 18650 battery.
+				\end{itemize}
+				\item \textbf{Cost}
+				\begin{itemize}
+					\item A single 18650 Battery doesn't range as drastically, as they have only one chemsitry makeup of the battery: lithium ion. Thus instead of having a broad range of selection, the 18650s are quite narrow in the range. The average cost of a single 18650 battery of around 2500 mAh is seven dollars (similar to the 9V), however since it would require 3 batteries, this cost goes up quickly, and the mAh is very far outside the range of the customers needs of 600 mAh, but 18650 batteries all have a mAh range that is generally high
+				\end{itemize}
+				\item \textbf{Durability}
+				\begin{itemize}
+					\item The 18650 Batteries are not as durable as their 9V battery counterparts, especially if you buy them in bulk, as they are wrapped with filmsy plastic coverings to hold mutliple batteries together. The bigger issue is, the limited awareness of how durable they are, with such a high mAh generally, its safe to assume they die out at a fairly quick rate (300 recharge cycles and usually replaces within 12-24 months)
+				\end{itemize}
+				\item \textbf{Compatiability}
+				\begin{itemize}
+					\item 18650 Batteries are not widely known for being compatible with items (thats not to say they aren't used, as laptop batteries actually use them sometimes and many other items, but they are designed in a particular way for those uses), they are not as widely used as 9V batteries are when it comes to circuit board integration. This can easily be shown by the previous project our product is based off of, Goofy Glasses, which used 9V batteries, not 18650.
+				\end{itemize}
+				\item \textbf{Reliability}
+				\begin{itemize}
+					\item 18650 batteries are not exatly known for being reliable. Due to their high mAh rate, they quickly become obselete and need to be replaced. That is not to say they don't provide a great amount of power, as they beat out a lot of similar battieres when it comes to mAh, but these batteries are not easily accesible, as they are not commonly sold in major stores.
+				\end{itemize}
+			\end{itemize}
+	
+			\noindent\textbf{Conclusion}\\
+			\indent The decision that correlates the best with the current design of the project is the 9V Battery, as with the various costs and benefits mentioned previously about the two, the 9V battery satisfies the client's needs better. THe 18650 would have easily been the better alternative if the product required a much longer operation time, as 9V batteries just don't offer nearly the same amount of mAh as the 18650 batteries do, in the end, the decision is about what is best in meeting the client's needs and making sense in the overall design of the system.
+			
+	\subsection{9V Battery - 1 vs 2 Quantity}
+	The decision betwen utilizing one or two 9V batteries is a difficult one, as the pros and cons of each are heavily important in the decision decision moving froward. it is important to discuss each and determine which one provides the best solution to the problem at hand, while evaluating the other one as a possible alternative.
+	
+		\noindent\textbf{1 9V Battery}\\
+			\indent One 9V Battery woudld follow the decision to have 2-LEDs in a series with one 9V battery, following very closely to the idea of the orignal Goofy Glasses Circuit. This would allow almost no configuraiton, but fails to meet the needs of the client when it comes to having at least three LEDs. But it also avoids the difficult challenge of heavily modifying the Goofy Circuit to work with 18v (as 3 LEDs would requires two 9Vs). This also for a very cheap LightBar that only requires one 9V Battery
+			
+			\indent The issue with the one 9V Battery is simply that the runtime might just be too short and having only two LEDs in ery limiting. Also, since with very littles configuraitons being made to the circuit this just appears as Goofy Glasses 2.0 (which is in some regards the idea, an evolution of TowerOfLights and Goofy Glasses). However, two LEDs is not enough to provide brightness needed, unless some clever workaround were made.\\
+		
+		
+		\noindent\textbf{2 9V Batteries}\\
+			\indent Two 9V Batteries would follow with the decision to have 2 sets of LEDs-in-series. Thus this would have two sets of LEDs that are in parallel then, and two 9V battries in parallel. So instead of the design of three LEDs per LightBar, there would be four, allowing each LightBar to be slighlty brighter. This also allows for less modification of the circuit, as dealing with a 9V in a circuit that is currently designed for 9V means not much needs to be tampered with. This also provides a better duration time to run the LEDs, as the drain from running both the Arduino and Reciever will be reduced by half (between the batteries), also this allows for easily modularity, if one needs more capacity, simply add another battery.
+			
+			\indent Now the issue that two 9V Batteries present is for one, and the big one, the cost, if each LightBar requires now two 9V lithium Ion Batteries, the cost per LightBar has risen dramatatically. Also, there is the issue of meeting the clients needs (however the client has now agreed that this concept is fine as well). Finally, this means having to adjust the LightBar confifuration that had been already predetermined, since there would now be four LEDs instead of three.\\
+		
+		\noindent\textbf{Conclusion}\\
+			\indent The decision to use two 9V Batteries in the system is the best and most logical decision, as it provides the best benefits with reduced costs. The main advantage is having even more brightness and ease of modularity. While the one 9V Battery otpion would easily win if this product was more concerned with mobility (like the Goofy Glasses), as having 2 9V Batteries is going to weight somedown quite a bit. Also, if costs needed to be cut more as well, but the issues that come alongside using just one 9V battery are too great in this product to utulize it, but perhaps in a similar porject, it would be a good alternative, or it could be used here for extensive and relatively cheap testing.
 
 	\newpage
 
 \section{Engineering Model}
 	Discussion of the physical, chemical, and biological system modeling. Also discusses modeling criteria, expected accuracy, and pitfalls. Section of modeling software used is present, as well as data needed and how the data was obtained. Lastly a validation scheme for the model is shown.
+	
+	\subsection{Design Failure Mode Effects Analysis (DFMEA)}
+	The DFMEA is shown below
+	
+	\includepdf[pages={-}, scale = 1, pagecommand={\null\vfill\captionof{figure}{DFMEA}}]{assets/DFMEA_LEaD_Design_PDF.pdf}
 
 	\newpage
 
 \section{Manufacturing/Assembly Plan}
 	Discussion of the fabrication need, a flowchart of process oriented projects, a bill of materials, and the estimated manufacturer and delivery time is discussed below.
 
+	\subsection{Bill of Materials}
+	The bill of materials (BOM) is shown below.
+	
+	\begin{figure}[ht!]
+		\centering
+		\includegraphics[width=140mm]{assets/Bill_of_Materials_Pg1.png}
+		\caption{Bill of Matierals}
+	\end{figure}
+
+	\begin{figure}[ht!]
+		\centering
+		\includegraphics[width=140mm]{assets/Bill_of_Materials_Pg2.png}
+		\caption{Bill of Matierals}
+	\end{figure}
+
+	 \noindent \textbf{Importance}\\
+	 \indent The bill of matierals provides a list of all the products components, details about said component, distributor numbers, manufacturer number, name of company, price, and if pertaining to the PCB schematic, its corresponding symbol in it. This bill of materials is very essential as it provides the basic idea of the manufacturing/assembly plan listing out all of the components needed, where to order, them, at what cost, and what their importance is in manufacturing. 
+	
 	\newpage
 
 \section{Experimental Design}
