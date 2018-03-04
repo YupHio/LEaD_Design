@@ -8,42 +8,49 @@
 \contentsline {subsection}{\numberline {2.1}9/14/2017 Team Meeting 1 Notes}{6}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}10/05/2017 Team Meeting 2 Notes}{9}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}11/02/2017 Team Meeting 3 Notes}{10}{subsection.2.3}
-\contentsline {section}{\numberline {3}Client Meetings and Minutes}{11}{section.3}
-\contentsline {subsection}{\numberline {3.1}9/08/2017 Client Meeting 1 Notes - With Dr.Rinker}{11}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}9/22/2017 Client Meeting 2 Notes - With Dr.Rinker}{12}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}11/03/2017 Client Meeting 3 Notes - With Dr.Rinker}{13}{subsection.3.3}
-\contentsline {section}{\numberline {4}Project Learning}{14}{section.4}
-\contentsline {subsection}{\numberline {4.1}Team Info}{14}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Proof of Design}{15}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Problem Statement}{17}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}General Specifications}{18}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Final Product Vision}{19}{subsection.4.5}
-\contentsline {section}{\numberline {5}Design Goals}{20}{section.5}
-\contentsline {subsection}{\numberline {5.1}Client Needs}{20}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Project Goal}{20}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Timeline}{21}{subsection.5.3}
-\contentsline {section}{\numberline {6}Specifications and Constraints}{22}{section.6}
-\contentsline {subsection}{\numberline {6.1}Arduino / Receiver Design Specification}{22}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Battery Design Specification}{23}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}LED Design Specification}{25}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Wireless Design Specification}{27}{subsection.6.4}
-\contentsline {section}{\numberline {7}System Diagrams}{28}{section.7}
-\contentsline {subsection}{\numberline {7.1}Current Product}{28}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}Desired Product}{28}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}PC Running TowerPlayer}{28}{subsection.7.3}
-\contentsline {section}{\numberline {8}Analysis of Alternatives}{30}{section.8}
-\contentsline {subsection}{\numberline {8.1}9V Battery vs 18650 Battery}{30}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}9V Battery - 1 vs 2 Quantity}{32}{subsection.8.2}
-\contentsline {section}{\numberline {9}Engineering Model}{34}{section.9}
-\contentsline {subsection}{\numberline {9.1}Design Failure Mode Effects Analysis (DFMEA)}{34}{subsection.9.1}
-\contentsline {section}{\numberline {10}Manufacturing/Assembly Plan}{41}{section.10}
-\contentsline {subsection}{\numberline {10.1}Bill of Materials}{41}{subsection.10.1}
-\contentsline {section}{\numberline {11}Experimental Design}{43}{section.11}
-\contentsline {section}{\numberline {12}Data Analysis}{44}{section.12}
-\contentsline {section}{\numberline {13}Balance Sheet}{45}{section.13}
-\contentsline {subsection}{\numberline {13.1}Budget}{45}{subsection.13.1}
-\contentsline {subsection}{\numberline {13.2}Hardware Decisions}{45}{subsection.13.2}
-\contentsline {subsection}{\numberline {13.3}Hardware List/Cost of Materials}{46}{subsection.13.3}
-\contentsline {section}{\numberline {14}Other Items}{48}{section.14}
-\contentsline {subsection}{\numberline {14.1}Team Wiki Page}{48}{subsection.14.1}
-\contentsline {subsection}{\numberline {14.2}LEaD Design Team Contract}{48}{subsection.14.2}
+\contentsline {subsection}{\numberline {2.4}11/16/2017 Team Meeting 4 Notes}{11}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}01/18/2018 Team Meeting 5 Notes}{12}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}02/15/2018 Team Meeting 6 Notes}{13}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}03/01/2018 Team Meeting 7 Notes}{14}{subsection.2.7}
+\contentsline {section}{\numberline {3}Client Meetings and Minutes}{15}{section.3}
+\contentsline {subsection}{\numberline {3.1}9/08/2017 Client Meeting 1 Notes - With Dr.Rinker}{15}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}9/22/2017 Client Meeting 2 Notes - With Dr.Rinker}{16}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}11/03/2017 Client Meeting 3 Notes - With Dr.Rinker}{17}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}01/26/2018 Client Meeting 4 Notes - With Dr.Rinker}{18}{subsection.3.4}
+\contentsline {section}{\numberline {4}Project Learning}{19}{section.4}
+\contentsline {subsection}{\numberline {4.1}Team Info}{19}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Proof of Design}{20}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Problem Statement}{22}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}General Specifications}{23}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Final Product Vision}{24}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Design Review 1 Presentation}{25}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Design Review 2 Presentation}{26}{subsection.4.7}
+\contentsline {section}{\numberline {5}Design Goals}{27}{section.5}
+\contentsline {subsection}{\numberline {5.1}Client Needs}{27}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Project Goal}{27}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Timeline}{28}{subsection.5.3}
+\contentsline {section}{\numberline {6}Specifications and Constraints}{29}{section.6}
+\contentsline {subsection}{\numberline {6.1}Arduino / Receiver Design Specification}{29}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Battery Design Specification}{30}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}LED Design Specification}{32}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Wireless Design Specification}{34}{subsection.6.4}
+\contentsline {section}{\numberline {7}System Diagrams}{35}{section.7}
+\contentsline {subsection}{\numberline {7.1}Current Product}{35}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Desired Product}{35}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}PC Running TowerPlayer}{35}{subsection.7.3}
+\contentsline {section}{\numberline {8}Analysis of Alternatives}{37}{section.8}
+\contentsline {subsection}{\numberline {8.1}9V Battery vs 18650 Battery}{37}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}9V Battery - 1 vs 2 Quantity}{39}{subsection.8.2}
+\contentsline {section}{\numberline {9}Engineering Model}{41}{section.9}
+\contentsline {subsection}{\numberline {9.1}Design Failure Mode Effects Analysis (DFMEA)}{41}{subsection.9.1}
+\contentsline {section}{\numberline {10}Manufacturing/Assembly Plan}{48}{section.10}
+\contentsline {subsection}{\numberline {10.1}Bill of Materials}{48}{subsection.10.1}
+\contentsline {section}{\numberline {11}Experimental Design}{50}{section.11}
+\contentsline {section}{\numberline {12}Data Analysis}{51}{section.12}
+\contentsline {section}{\numberline {13}Balance Sheet}{52}{section.13}
+\contentsline {subsection}{\numberline {13.1}Budget}{52}{subsection.13.1}
+\contentsline {subsection}{\numberline {13.2}Hardware Decisions}{52}{subsection.13.2}
+\contentsline {subsection}{\numberline {13.3}Hardware List/Cost of Materials}{53}{subsection.13.3}
+\contentsline {section}{\numberline {14}Other Items}{55}{section.14}
+\contentsline {subsection}{\numberline {14.1}Team Wiki Page}{55}{subsection.14.1}
+\contentsline {subsection}{\numberline {14.2}LEaD Design Team Contract}{55}{subsection.14.2}
