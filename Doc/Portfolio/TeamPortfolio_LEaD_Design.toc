@@ -46,6 +46,7 @@
 \contentsline {section}{\numberline {10}Manufacturing/Assembly Plan}{48}{section.10}
 \contentsline {subsection}{\numberline {10.1}Bill of Materials}{48}{subsection.10.1}
 \contentsline {section}{\numberline {11}Experimental Design}{50}{section.11}
+\contentsline {subsection}{\numberline {11.1}Prototype Progress}{50}{subsection.11.1}
 \contentsline {section}{\numberline {12}Data Analysis}{51}{section.12}
 \contentsline {section}{\numberline {13}Balance Sheet}{52}{section.13}
 \contentsline {subsection}{\numberline {13.1}Budget}{52}{subsection.13.1}
