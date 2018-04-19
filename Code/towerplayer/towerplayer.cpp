@@ -44,6 +44,7 @@ struct tannode
    struct tannode *next;
   };
 
+uint8_t *Convert_To_Individual_RGB32(tannode *tanll);
 tannode *readtan(char tanfilename[]);   //  reads a tan file into a linked list
 void writetan(char tanfilename[], tannode *tanlli, char vnum, int dummy[]); // writes a tan file from a llist 
 void printtan(tannode *tanll);
@@ -321,6 +322,37 @@ int main()
 
   } // END main
 */
+
+/*
+* Input: tannode struct
+* Output: Pointer to a 96 element uint8_t array
+*/
+uint8_t* Convert_To_Individual_RGB32(tannode *tanll)
+  {
+   tannode *p;
+   int i;
+   int j;
+
+   // Array of 96 individual RGB values (from 1st 32 RGB structs with 3 rgb values)
+   uint8_t *indivRBG32 = new uint8_t[96];
+
+   p = tanll;
+
+   while(p != NULL)
+     {
+      // 40 total, but only wanting 32 RGB structs
+      for(i = 0; i < 32; i++)
+        {
+          j = i*3;
+          indivRBG32[j] = p->rgb[i].red;
+          indivRBG32[j+1] = p->rgb[i].green;
+          indivRBG32[j+2] = p->rgb[i].blue;
+        }
+      p = p -> next;
+     }
+
+     return indivRBG32;
+  } 
 
 tannode *readtan(char tanfilename[])
   {
