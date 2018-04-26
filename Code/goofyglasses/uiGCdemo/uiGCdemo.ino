@@ -1,19 +1,15 @@
-#include <SoftPWM_timer.h>
-#include <SoftPWM.h>
-
 #include "mrf24j.h"
-#include <SPI.h>
 
 /*
-* uiGC0 
+* uiGC0
 * Goofy Controller 0
 * common cathode LEDs +
 * Mrf24j40
-* 
+*
 * Benjamin Jeffery
 * University of Idaho
 * 10/09/2015
-* 
+*
 */
 
 int redPin = 3;
@@ -29,20 +25,17 @@ Mrf24j mrf(pin_reset, pin_cs, pin_interrupt);
 
 void setup() {
   DDRC = 0x00;
-  SoftPWMBegin();
-  SoftPWMSet(redPin, 0);
-  SoftPWMSet(greenPin, 0);
   pinMode(bluePin, OUTPUT);
-  SoftPWMSetFadeTime(redPin, 100, 100);
-  SoftPWMSetFadeTime(greenPin, 100, 100);
-  
+  pinMode(greenPin, OUTPUT);
+  pinMode(redPin, OUTPUT);
+
   digitalWrite(A0,HIGH);
   digitalWrite(A1, HIGH);
   digitalWrite(A2, HIGH);
   digitalWrite(A3, HIGH);
 
   setColor(0,0,0);
-  
+
   mrf.reset();
   mrf.init();
   mrf.set_pan(2015);
@@ -50,7 +43,7 @@ void setup() {
   mrf.address16_write(0x4202);
   mrf.set_promiscuous(true);
   mrf.set_bufferPHY(true);
-  
+
   attachInterrupt(0, interrupt_routine, CHANGE);
   interrupts();
   idVal = ~PINC & 0x0f;
@@ -64,7 +57,7 @@ void interrupt_routine()
 
 void loop()
 {
-  if (idVal == 15) 
+  if (idVal == 15)
   {
     setColor(255, 0, 0);
     delay(250);
@@ -88,7 +81,7 @@ void loop()
     delay(50);
   }
   else {
-    mrf.check_flags(&handle_rx, &handle_tx); 
+    mrf.check_flags(&handle_rx, &handle_tx);
   }
 }
 
@@ -104,9 +97,7 @@ void handle_tx()
 
 void setColor(int red, int green, int blue)
 {
-  SoftPWMSet(redPin, red);
-  SoftPWMSet(greenPin, green);
+  analogWrite(redPin, red);
+  analogWrite(greenPin, green);
   analogWrite(bluePin, blue);
 }
-
-
