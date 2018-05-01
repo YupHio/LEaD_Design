@@ -68,7 +68,7 @@ static size_t getEncodedBufferSize(size_t sourceSize)
 {
         size_t s;
         s = sourceSize + sourceSize / 254 + 1;
-        //printf("buffer size is : %zd.\n", s);
+        printf("buffer size is : %zd.\n", s);
         return s;
 }
 
@@ -217,12 +217,8 @@ int main(int ac,char *av[])
                                    if(j%10 == 0) buf[3] = '4';
                                    buf[bufcnt++] = '%';  // end of packet*/
                                 uint8_t * thisFrame = Convert_To_Individual_RGB32(p);
-                                size_t m = getEncodedBufferSize(sizeof(thisFrame));
+                                size_t m = 96;
                                 nbytes = ftdi_write_data(&ftdic, thisFrame, m);
-                                int x;
-                                for (x = 0; x < 96; x++) {
-                                        //printf("%d", thisFrame[x]);
-                                }
                                 if(nbytes < 0)
                                 {
                                         fprintf(stderr, "Error writing bytes to xbee - error code %d\n", nbytes);
