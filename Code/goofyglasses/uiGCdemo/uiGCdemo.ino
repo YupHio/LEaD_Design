@@ -24,10 +24,12 @@ int idVal;
 int startId;
 volatile int f_timer=0;
 boolean receiving = false;
+boolean readyToReceive = false;
 
 Mrf24j mrf(pin_reset, pin_cs, pin_interrupt);
 
 void setup() {
+  noInterrupts();
   DDRC = 0x00;
   pinMode(bluePin, OUTPUT);
   pinMode(greenPin, OUTPUT);
@@ -51,19 +53,15 @@ void setup() {
   idVal = ~PINC & 0x0f;
   startId = idVal * 3;
   
-  attachInterrupt(0, interrupt_routine, CHANGE);
-  interrupts();
-  
   setupSleepTimer();
   sleepNow();
 }
 
 // need to reinitialize after waking
 void wakeUp() {
-  noInterrupts();
   setColor(255,255,255);
   setColor(0, 0, 0);
-  setupSleepTimer();
+  setupCheckingTimer();
   sleep_disable();
   power_all_enable();
   attachInterrupt(0, interrupt_routine, CHANGE);
@@ -73,10 +71,12 @@ void wakeUp() {
  // interrupt vector for the timer overflow interrupt
 ISR(TIMER1_OVF_vect)
 {
+  noInterrupts();
   // check if waking or not
    if (f_timer == 0) {
     f_timer = 1;
    } else if(!receiving) {
+    setupSleepTimer();
     sleepNow();
    }
 }
@@ -84,13 +84,22 @@ ISR(TIMER1_OVF_vect)
 // sets up the sleep timer
 void setupSleepTimer() {
   TCCR1A = 0x00;
-  TCNT1 = 0xA000;
-  //TCCR1B = 0x05;
+  TCNT1 = 0x0000;
+  TCCR1B = 0x05;
+  TIMSK1 = 0x01;
+}
+
+// sets up the timer used to stay awake while checking for signal
+void setupCheckingTimer() {
+  TCCR1A = 0x00;
+  TCNT1 = 0x8000;
+  TCCR1B = 0x01;
   TIMSK1 = 0x01;
 }
 
 // initiates sleep mode
 void sleepNow() {
+  detachInterrupt(0);
   set_sleep_mode(SLEEP_MODE_IDLE);
   sleep_enable();
   // power down unused stuff for additional power savings
@@ -109,7 +118,7 @@ void sleepNow() {
 
 void interrupt_routine()
 {
-  mrf.interrupt_handler();
+   mrf.interrupt_handler();
 }
 
 void loop()
