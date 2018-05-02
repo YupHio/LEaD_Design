@@ -59,10 +59,9 @@ void setup() {
 
 // need to reinitialize after waking
 void wakeUp() {
-  setColor(255,255,255);
-  setColor(0, 0, 0);
   setupCheckingTimer();
   sleep_disable();
+  // re-enable everything we shut off before going to sleep
   power_all_enable();
   attachInterrupt(0, interrupt_routine, CHANGE);
   interrupts();
@@ -83,22 +82,32 @@ ISR(TIMER1_OVF_vect)
 
 // sets up the sleep timer
 void setupSleepTimer() {
+  // set counter to be normal
   TCCR1A = 0x00;
+  // initialize counter at 0 to maximize time asleep
   TCNT1 = 0x0000;
+  // set counter to increment every 1024 clock cycles
   TCCR1B = 0x05;
+  // enable overflow interrupt
   TIMSK1 = 0x01;
 }
 
 // sets up the timer used to stay awake while checking for signal
 void setupCheckingTimer() {
+  // set counter to be normal
   TCCR1A = 0x00;
+  // intialize counter halfway to maximum to reduce time awake
   TCNT1 = 0x8000;
+  // set counter to increment every clock cycle
   TCCR1B = 0x01;
+  // enable overflow interrupt
   TIMSK1 = 0x01;
 }
 
 // initiates sleep mode
 void sleepNow() {
+  // detach interrupt
+  // interrupts on pin 0 are highest priority which can mess up waking routine
   detachInterrupt(0);
   set_sleep_mode(SLEEP_MODE_IDLE);
   sleep_enable();
@@ -108,7 +117,10 @@ void sleepNow() {
   power_timer0_disable();
   power_timer2_disable();
   power_twi_disable();
+
+  // indicate we're going to sleep
   f_timer = 0;
+  // enable interrupts
   interrupts();
   sleep_mode();
   
