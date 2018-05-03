@@ -375,12 +375,13 @@ uint8_t* Convert_To_Individual_RGB32(tannode *tanll)
                 }
                 // if xbee is sent a series of three '+' characters it enters command mode
                 // ASCII code for '+' is 43
-                // unlikely to happen, but better to be safe 
+                // unlikely to happen, but better to be safe
                 // if this pattern occurrs in our array modify the last value
                 if (indivRBG32[j] == 43) {
                     numPluses++;
                     if (numPluses == 3) {
                         indivRBG32[j] = 42;
+                        numPluses = 0;
                     }
                 } else {
                     numPluses = 0;
@@ -389,6 +390,7 @@ uint8_t* Convert_To_Individual_RGB32(tannode *tanll)
                     numPluses++;
                     if (numPluses == 3) {
                         indivRBG32[j + 1] = 42;
+                        numPluses = 0;
                     }
                 } else {
                     numPluses = 0;
@@ -397,6 +399,7 @@ uint8_t* Convert_To_Individual_RGB32(tannode *tanll)
                     numPluses++;
                     if (numPluses == 3) {
                         indivRBG32[j + 2] = 42;
+                        numPluses = 0;
                     }
                 } else {
                     numPluses = 0;
