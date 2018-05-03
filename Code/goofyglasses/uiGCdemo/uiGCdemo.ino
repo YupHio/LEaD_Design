@@ -44,7 +44,7 @@ void setup() {
   digitalWrite(A2, HIGH);
   digitalWrite(A3, HIGH);
 
-  setColor(0, 0, 0);
+  setColor(0, 255, 0);
 
   mrf.reset();
   mrf.init();
@@ -67,6 +67,7 @@ void wakeUp() {
   sleep_disable();
   // re-enable everything we shut off before going to sleep
   power_all_enable();
+  setColor(0, 255, 0);
   attachInterrupt(0, interrupt_routine, CHANGE);
   interrupts();
 }
@@ -78,7 +79,6 @@ ISR(TIMER1_OVF_vect)
   // check if waking or not
    if (f_timer == 0) {
     f_timer = 1;
-    wakeUp();
    } else if(!receiving) {
     setupSleepTimer();
     sleepNow();
@@ -92,7 +92,7 @@ void setupSleepTimer() {
   // set counter to be normal
   TCCR1A = 0x00;
   // initialize counter at 0 to maximize time asleep
-  TCNT1 = 0x0000;
+  TCNT1 = 0xd000;
   // set counter to increment every 1024 clock cycles
   TCCR1B = 0x05;
   // enable overflow interrupt
@@ -116,6 +116,7 @@ void sleepNow() {
   // detach interrupt
   // interrupts on pin 0 are highest priority which can mess up waking routine
   detachInterrupt(0);
+  setColor(0, 0, 0);
   set_sleep_mode(SLEEP_MODE_IDLE);
   sleep_enable();
   // power down unused stuff for additional power savings
@@ -130,6 +131,9 @@ void sleepNow() {
   // enable interrupts
   interrupts();
   sleep_mode();
+
+  // after waking 
+  wakeUp();
 }
 
 void interrupt_routine()
@@ -139,7 +143,7 @@ void interrupt_routine()
 
 void loop()
 {
-  if (millis() > 5000 && !receiving) {
+  if (millis() > 500 && !receiving) {
     setupSleepTimer();
     sleepNow();
   }
