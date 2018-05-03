@@ -352,11 +352,12 @@ uint8_t* Convert_To_Individual_RGB32(tannode *tanll)
 
         p = tanll;
 
+        int numPluses = 0;
+
         // first 16 pixels use the most significant 4 bits of the first 48 bytes
         // second 16 pixels use the most significant 4 bits of the last 48 bytes
         // third 16 pixels use the least significant 4 bits of the first 48 bytes
         // fourth 16 pixels use the least significant 4 bits of the last 48 bytes
-
         for(i = 0; i < p->numPixels/2; i++)
         {
                 j = i*3;
@@ -372,6 +373,35 @@ uint8_t* Convert_To_Individual_RGB32(tannode *tanll)
                     indivRBG32[j+1] = indivRBG32[j+1] | (p->rgb[i + 32].green >> 4);
                     indivRBG32[j+2] = indivRBG32[j+2] | (p->rgb[i + 32].blue >> 4);
                 }
+                // if xbee is sent a series of three '+' characters it enters command mode
+                // ASCII code for '+' is 43
+                // unlikely to happen, but better to be safe 
+                // if this pattern occurrs in our array modify the last value
+                if (indivRBG32[j] == 43) {
+                    numPluses++;
+                    if (numPluses == 3) {
+                        indivRBG32[j] = 42;
+                    }
+                } else {
+                    numPluses = 0;
+                }
+                if (indivRBG32[j + 1] == 43) {
+                    numPluses++;
+                    if (numPluses == 3) {
+                        indivRBG32[j + 1] = 42;
+                    }
+                } else {
+                    numPluses = 0;
+                }
+                if (indivRBG32[j + 2] == 43) {
+                    numPluses++;
+                    if (numPluses == 3) {
+                        indivRBG32[j + 2] = 42;
+                    }
+                } else {
+                    numPluses = 0;
+                }
+
         }
         return indivRBG32;
 }
