@@ -1,3 +1,7 @@
+#include <SoftPWM_timer.h>
+#include <SoftPWM.h>
+#include <SPI.h>
+
 #include "mrf24j.h"
 #include <avr/sleep.h>
 #include <avr/power.h>
@@ -26,15 +30,21 @@ int startId;
 int idShif;
 volatile int f_timer = 1;
 boolean receiving = false;
+int red = 0, green = 0, blue = 0;
 
 Mrf24j mrf(pin_reset, pin_cs, pin_interrupt);
 
 void setup() {
   noInterrupts();
   DDRC = 0x00;
-  pinMode(bluePin, OUTPUT);
-  pinMode(greenPin, OUTPUT);
-  pinMode(redPin, OUTPUT);
+  SoftPWMBegin();
+  SoftPWMSet(redPin, 0);
+  SoftPWMSet(greenPin, 0);
+  SoftPWMSet(bluePin, 0);
+  SoftPWMSetFadeTime(ALL, 0, 0);
+  // make sure clock is running normally
+  TCCR2B = 0x01;
+  TCCR0B = 0x01;
 
   digitalWrite(A0, HIGH);
   digitalWrite(A1, HIGH);
@@ -151,6 +161,7 @@ void loop()
   if (!receiving && millis() > 500) {
     setupSleepTimer();
     sleepNow();
+    return;
   }
   mrf.check_flags(&handle_rx, &handle_tx);
 }
@@ -159,21 +170,20 @@ void handle_rx()
 {
   // indicate a transmission has been received, prevents sleep
   receiving = true;
-  int red, green, blue;
+  TIMSK1 = 0;
   if (CHANNEL < 2) {
     // shift most significant 4 bits right and multiply by 17 to scale values to 0-255
     red = (mrf.get_rxinfo()->rx_data[startId] >> 4) * 17;
     green = (mrf.get_rxinfo()->rx_data[startId + 1] >> 4) * 17;
     blue = (mrf.get_rxinfo()->rx_data[startId + 2] >> 4) * 17;
-    setColor(red, green, blue);
   } else {
     // eliminate most significant bits and multiply by 17 to scale values to 0-255
     red = (mrf.get_rxinfo()->rx_data[startId] & 0b00001111) * 17;
     green = (mrf.get_rxinfo()->rx_data[startId + 1] & 0b00001111) * 17;
     blue = (mrf.get_rxinfo()->rx_data[startId + 2] & 0b00001111) * 17;
-    setColor(red, green, blue);
   }
   mrf.rx_flush();
+  setColor(red, green, blue);
 }
 
 void handle_tx()
@@ -182,7 +192,7 @@ void handle_tx()
 
 void setColor(int red, int green, int blue)
 {
-  analogWrite(redPin, red);
-  analogWrite(greenPin, green);
-  analogWrite(bluePin, blue);
+  SoftPWMSet(redPin, red);
+  SoftPWMSet(greenPin, green);
+  SoftPWMSet(bluePin, blue);
 }
