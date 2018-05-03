@@ -13,7 +13,12 @@
   10/09/2015
 
 */
-
+// CHANNEL can be 0-3, each channel is a group of 16 pixels
+// first 16 pixels use the most significant 4 bits of the first 48 bytes
+// second 16 pixels use the most significant 4 bits of the last 48 bytes
+// third 16 pixels use the least significant 4 bits of the first 48 bytes
+// fourth 16 pixels use the least significant 4 bits of the last 48 bytes
+int CHANNEL = 2;
 int redPin = 3;
 int greenPin = 4;
 int bluePin = 5;
@@ -22,9 +27,8 @@ int pin_cs = 8;
 int pin_interrupt = 2;
 int idVal;
 int startId;
-volatile int f_timer=0;
+volatile int f_timer;
 boolean receiving = false;
-boolean readyToReceive = false;
 
 Mrf24j mrf(pin_reset, pin_cs, pin_interrupt);
 
@@ -52,7 +56,7 @@ void setup() {
 
   idVal = ~PINC & 0x0f;
   startId = idVal * 3;
-  
+
   setupSleepTimer();
   sleepNow();
 }
@@ -63,6 +67,8 @@ void wakeUp() {
   sleep_disable();
   // re-enable everything we shut off before going to sleep
   power_all_enable();
+  setColor(255, 255, 255);
+  setColor(0, 0, 0);
   attachInterrupt(0, interrupt_routine, CHANGE);
   interrupts();
 }
@@ -85,7 +91,7 @@ void setupSleepTimer() {
   // set counter to be normal
   TCCR1A = 0x00;
   // initialize counter at 0 to maximize time asleep
-  TCNT1 = 0x0000;
+  TCNT1 = 0xb000;
   // set counter to increment every 1024 clock cycles
   TCCR1B = 0x05;
   // enable overflow interrupt
@@ -97,7 +103,7 @@ void setupCheckingTimer() {
   // set counter to be normal
   TCCR1A = 0x00;
   // intialize counter halfway to maximum to reduce time awake
-  TCNT1 = 0x8000;
+  TCNT1 = 0x0000;
   // set counter to increment every clock cycle
   TCCR1B = 0x01;
   // enable overflow interrupt
@@ -123,7 +129,7 @@ void sleepNow() {
   // enable interrupts
   interrupts();
   sleep_mode();
-  
+
   // after waking
   wakeUp();
 }
@@ -166,7 +172,15 @@ void loop()
 void handle_rx()
 {
   receiving = true;
-  setColor(mrf.get_rxinfo()->rx_data[startId], mrf.get_rxinfo()->rx_data[startId + 1], mrf.get_rxinfo()->rx_data[startId + 2]);
+  int red, green, blue;
+  if (CHANNEL < 2) {
+    red = (mrf.get_rxinfo()->rx_data[startId] >> 4) * 17;
+    green = (mrf.get_rxinfo()->rx_data[startId + 1] >> 4) * 17;
+    blue = (mrf.get_rxinfo()->rx_data[startId + 2] >> 4) * 17;
+    setColor(red, green, blue);
+  } else {
+    setColor(mrf.get_rxinfo()->rx_data[startId], mrf.get_rxinfo()->rx_data[startId + 1], mrf.get_rxinfo()->rx_data[startId + 2]);
+  }
   mrf.rx_flush();
 }
 
