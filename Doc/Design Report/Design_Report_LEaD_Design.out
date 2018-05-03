@@ -1,0 +1,58 @@
+\BOOKMARK [1][-]{section.1}{Executive Summary}{}% 1
+\BOOKMARK [1][-]{section.2}{Background}{}% 2
+\BOOKMARK [1][-]{section.3}{Problem Definition}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Project Goal}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Deliverables}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Inventory Specifications and Contraints}{section.3}% 6
+\BOOKMARK [1][-]{section.4}{Project Plan}{}% 7
+\BOOKMARK [2][-]{subsection.4.1}{Team Roles and Responsibilities}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.2}{Schedule}{section.4}% 9
+\BOOKMARK [1][-]{section.5}{Concepts Considered}{}% 10
+\BOOKMARK [2][-]{subsection.5.1}{Battery Design}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.2}{Arduino / Receiver Design}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.3}{LED Design}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.4}{Wireless Design}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.5}{LightBar Design}{section.5}% 15
+\BOOKMARK [1][-]{section.6}{Concept Selection}{}% 16
+\BOOKMARK [2][-]{subsection.6.1}{9V Battery vs 18650 Battery}{section.6}% 17
+\BOOKMARK [2][-]{subsection.6.2}{Series vs Parallel Circuit}{section.6}% 18
+\BOOKMARK [2][-]{subsection.6.3}{WoodenLightBar vs 3D Print}{section.6}% 19
+\BOOKMARK [2][-]{subsection.6.4}{Other Final Selections Process}{section.6}% 20
+\BOOKMARK [1][-]{section.7}{System Architecture}{}% 21
+\BOOKMARK [2][-]{subsection.7.1}{Proof of Design}{section.7}% 22
+\BOOKMARK [2][-]{subsection.7.2}{Current Product}{section.7}% 23
+\BOOKMARK [2][-]{subsection.7.3}{Desired Product}{section.7}% 24
+\BOOKMARK [2][-]{subsection.7.4}{PC Running TowerPlayer}{section.7}% 25
+\BOOKMARK [1][-]{section.8}{Design Evaluation}{}% 26
+\BOOKMARK [2][-]{subsection.8.1}{DMFEA vs Project Specifications}{section.8}% 27
+\BOOKMARK [2][-]{subsection.8.2}{Testing Procedures}{section.8}% 28
+\BOOKMARK [2][-]{subsection.8.3}{Testing Results}{section.8}% 29
+\BOOKMARK [1][-]{section.9}{Future Work}{}% 30
+\BOOKMARK [2][-]{subsection.9.1}{Recommendations for Adoption/Implemtation}{section.9}% 31
+\BOOKMARK [2][-]{subsection.9.2}{Missing Features}{section.9}% 32
+\BOOKMARK [3][-]{subsubsection.9.2.1}{Estimated Scope of Next Steps}{subsection.9.2}% 33
+\BOOKMARK [1][-]{appendix.A}{Calculations and Drawings}{}% 34
+\BOOKMARK [2][-]{subsection.A.1}{Drawing of Original Schedule}{appendix.A}% 35
+\BOOKMARK [2][-]{subsection.A.2}{LightBar 3D Model}{appendix.A}% 36
+\BOOKMARK [1][-]{appendix.B}{Tables and Figures}{}% 37
+\BOOKMARK [2][-]{subsection.B.1}{Arduino / Receiver Design Specification}{appendix.B}% 38
+\BOOKMARK [2][-]{subsection.B.2}{Battery Design Specification}{appendix.B}% 39
+\BOOKMARK [2][-]{subsection.B.3}{LED Design Specification}{appendix.B}% 40
+\BOOKMARK [2][-]{subsection.B.4}{LED Specification Adjustments}{appendix.B}% 41
+\BOOKMARK [2][-]{subsection.B.5}{Wireless Design Specification}{appendix.B}% 42
+\BOOKMARK [2][-]{subsection.B.6}{Gantt Chart}{appendix.B}% 43
+\BOOKMARK [2][-]{subsection.B.7}{Bill of Materials}{appendix.B}% 44
+\BOOKMARK [2][-]{subsection.B.8}{Prototype Progress}{appendix.B}% 45
+\BOOKMARK [2][-]{subsection.B.9}{Hardware List/Cost of Materials}{appendix.B}% 46
+\BOOKMARK [1][-]{appendix.C}{Computer Programs}{}% 47
+\BOOKMARK [1][-]{appendix.D}{Vendor Data Sheets}{}% 48
+\BOOKMARK [2][-]{subsection.D.1}{Xbee Transmitter Data Sheet}{appendix.D}% 49
+\BOOKMARK [2][-]{subsection.D.2}{Atmega 328P Data Sheet}{appendix.D}% 50
+\BOOKMARK [2][-]{subsection.D.3}{Xbee Shield Data Sheet}{appendix.D}% 51
+\BOOKMARK [2][-]{subsection.D.4}{9V Battery Data Sheet}{appendix.D}% 52
+\BOOKMARK [1][-]{appendix.E}{Shedule}{}% 53
+\BOOKMARK [2][-]{subsection.E.1}{Timeline - Diagram}{appendix.E}% 54
+\BOOKMARK [2][-]{subsection.E.2}{Schedule - Orignally Planned}{appendix.E}% 55
+\BOOKMARK [2][-]{subsection.E.3}{Schedule - Executed}{appendix.E}% 56
+\BOOKMARK [1][-]{appendix.F}{DFMEA Worksheet}{}% 57
+\BOOKMARK [1][-]{appendix.G}{Overview of Folder/File Organization}{}% 58
