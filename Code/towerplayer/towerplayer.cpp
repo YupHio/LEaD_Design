@@ -369,11 +369,7 @@ uint8_t* Convert_To_Individual_RGB32(tannode *tanll)
                 // shift right 4 bits and binary or with existing value
                 if (i + 32 < p->numPixels) {
                     indivRBG32[j] = indivRBG32[j] | (p->rgb[i + 32].red >> 4);
-                }
-                if (i + 33 < p->numPixels) {
                     indivRBG32[j+1] = indivRBG32[j+1] | (p->rgb[i + 32].green >> 4);
-                }
-                if (i + 34 < p->numPixels) {
                     indivRBG32[j+2] = indivRBG32[j+2] | (p->rgb[i + 32].blue >> 4);
                 }
         }
