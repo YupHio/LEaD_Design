@@ -155,6 +155,8 @@ void loop()
   }
   if (idVal == 15)
   {
+    // set receiving to true so demo never goes to sleep
+    receiving = true;
     setColor(255, 0, 0);
     delay(250);
     setColor(0, 0, 0);
