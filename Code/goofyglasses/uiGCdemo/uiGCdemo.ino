@@ -13,7 +13,12 @@
   10/09/2015
 
 */
-
+// CHANNEL can be 0-3, each channel is a group of 16 pixels
+// first 16 pixels use the most significant 4 bits of the first 48 bytes
+// second 16 pixels use the most significant 4 bits of the last 48 bytes
+// third 16 pixels use the least significant 4 bits of the first 48 bytes
+// fourth 16 pixels use the least significant 4 bits of the last 48 bytes
+int CHANNEL = 2;
 int redPin = 3;
 int greenPin = 4;
 int bluePin = 5;
@@ -22,9 +27,8 @@ int pin_cs = 8;
 int pin_interrupt = 2;
 int idVal;
 int startId;
-volatile int f_timer=0;
+volatile int f_timer = 1;
 boolean receiving = false;
-boolean readyToReceive = false;
 
 Mrf24j mrf(pin_reset, pin_cs, pin_interrupt);
 
@@ -53,8 +57,8 @@ void setup() {
   idVal = ~PINC & 0x0f;
   startId = idVal * 3;
   
-  setupSleepTimer();
-  sleepNow();
+  attachInterrupt(0, interrupt_routine, CHANGE);
+  interrupts();
 }
 
 // need to reinitialize after waking
@@ -74,9 +78,12 @@ ISR(TIMER1_OVF_vect)
   // check if waking or not
    if (f_timer == 0) {
     f_timer = 1;
+    wakeUp();
    } else if(!receiving) {
     setupSleepTimer();
     sleepNow();
+   } else {
+    interrupts();
    }
 }
 
@@ -123,9 +130,6 @@ void sleepNow() {
   // enable interrupts
   interrupts();
   sleep_mode();
-  
-  // after waking
-  wakeUp();
 }
 
 void interrupt_routine()
@@ -135,6 +139,10 @@ void interrupt_routine()
 
 void loop()
 {
+  if (millis() > 5000 && !receiving) {
+    setupSleepTimer();
+    sleepNow();
+  }
   if (idVal == 15)
   {
     setColor(255, 0, 0);
@@ -166,7 +174,18 @@ void loop()
 void handle_rx()
 {
   receiving = true;
-  setColor(mrf.get_rxinfo()->rx_data[startId], mrf.get_rxinfo()->rx_data[startId + 1], mrf.get_rxinfo()->rx_data[startId + 2]);
+  int red, green, blue;
+  if (CHANNEL < 2) {
+    red = (mrf.get_rxinfo()->rx_data[startId] >> 4) * 17;
+    green = (mrf.get_rxinfo()->rx_data[startId + 1] >> 4) * 17;
+    blue = (mrf.get_rxinfo()->rx_data[startId + 2] >> 4) * 17;
+    setColor(red, green, blue);
+  } else {
+    red = (mrf.get_rxinfo()->rx_data[startId] & 0b00001111) * 17;
+    green = (mrf.get_rxinfo()->rx_data[startId + 1] & 0b00001111) * 17;
+    blue = (mrf.get_rxinfo()->rx_data[startId + 2] & 0b00001111) * 17;
+    setColor(red, green, blue);
+  }
   mrf.rx_flush();
 }
 

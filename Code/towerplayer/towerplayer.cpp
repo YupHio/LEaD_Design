@@ -37,7 +37,8 @@ struct RGB
 struct tannode
 {
         int startus;     // microsecond time stamp when this frame starts
-        RGB rgb[40];     // raw frame data
+        RGB * rgb;     // raw frame data
+        int numPixels; //number of pixels in this node
         uint16_t data16[80];
         uint8_t data8[40];
         uint8_t data12[60];
@@ -50,7 +51,7 @@ void writetan(char tanfilename[], tannode *tanlli, char vnum, int dummy[]); // w
 void printtan(tannode *tanll);
 int cvt2us(char timestring[]);
 tannode *getv2frame(FILE *in);
-tannode *getv3frame(FILE *in);
+tannode *getv3frame(FILE *in, int numPixels);
 void cvt2data16(tannode *p);
 void cvt2data12(tannode *p);
 void cvt2data8(tannode *p);
@@ -336,6 +337,7 @@ int main(int ac,char *av[])
 /*
  * Input: tannode struct
  * Output: Pointer to a 96 element uint8_t array
+ * Supports up to 64 pixel frames
  */
 uint8_t* Convert_To_Individual_RGB32(tannode *tanll)
 {
@@ -343,20 +345,38 @@ uint8_t* Convert_To_Individual_RGB32(tannode *tanll)
         int i;
         int j;
 
-        // Array of 96 individual RGB values (from 1st 32 RGB structs with 3 rgb values)
         uint8_t *indivRBG32 = new uint8_t[96];
+
+        // zero out array in case less than 64 pixels
+        memset(indivRBG32, 0, 96);
 
         p = tanll;
 
-        // 40 total, but only wanting 32 RGB structs
-        for(i = 0; i < 32; i++)
+        // first 16 pixels use the most significant 4 bits of the first 48 bytes
+        // second 16 pixels use the most significant 4 bits of the last 48 bytes
+        // third 16 pixels use the least significant 4 bits of the first 48 bytes
+        // fourth 16 pixels use the least significant 4 bits of the last 48 bytes
+
+        for(i = 0; i < p->numPixels/2; i++)
         {
                 j = i*3;
-                indivRBG32[j] = p->rgb[i].red;
-                indivRBG32[j+1] = p->rgb[i].green;
-                indivRBG32[j+2] = p->rgb[i].blue;
+                // only use most significant 4 bits of each RGB value
+                // clear least significant bits, used later if enough pixels
+                indivRBG32[j] = p->rgb[i].red & 0b11110000;
+                indivRBG32[j+1] = p->rgb[i].green & 0b11110000;;
+                indivRBG32[j+2] = p->rgb[i].blue & 0b11110000;
+                // store most significant 4 bits of pixels 32-63 in same bytes
+                // shift right 4 bits and binary or with existing value
+                if (i + 32 < p->numPixels) {
+                    indivRBG32[j] = indivRBG32[j] | (p->rgb[i + 32].red >> 4);
+                }
+                if (i + 33 < p->numPixels) {
+                    indivRBG32[j+1] = indivRBG32[j+1] | (p->rgb[i + 33].green >> 4);
+                }
+                if (i + 34 < p->numPixels) {
+                    indivRBG32[j+2] = indivRBG32[j+2] | (p->rgb[i + 34].blue >> 4);
+                }
         }
-        int x;
         return indivRBG32;
 }
 
@@ -412,6 +432,11 @@ tannode *readtan(char tanfilename[])
 // for all versions, next thing is number of frames, followed by row x col
 
         fscanf(in, "%d %d %d", &nframes, &row, &col);
+        // only up to 64 nodes are supported
+        if (row * col > 64) {
+                printf("tan file cannot contain more than 64 nodes!");
+                return (tannode *) NULL;
+        }
         if(debug) printf("nframes = %d, rows = %d, cols = %d\n", nframes, row, col);
 
 // Now start reading frames.
@@ -424,7 +449,7 @@ tannode *readtan(char tanfilename[])
                 {
                 case '2': p = getv2frame(in);
                         break;
-                case '3': p = getv3frame(in);
+                case '3': p = getv3frame(in, row * col);
                 } // END frame
 
                 cvt2data16(p); // compress RGB to a single 16 bit value - 0rrrrrgggggbbbbb
@@ -816,7 +841,7 @@ tannode *getv2frame(FILE *in)
 }   // END getv2frame
 
 
-tannode *getv3frame(FILE *in)
+tannode *getv3frame(FILE *in, int numPixels)
 {
         int timeus;
         char timestring[11];
@@ -828,9 +853,12 @@ tannode *getv3frame(FILE *in)
         timeus = cvt2us(timestring);
 
         p = new tannode;
+        // each pixel needs 3 bytes for RGB values
+        p->rgb = (RGB*)malloc(sizeof(RGB) * numPixels);
+        p->numPixels = numPixels;
         p->startus = timeus;
 
-        for(i = 0; i < 40; i++) // frames are specified as 0 or per pixel.
+        for(i = 0; i < numPixels; i++) // frames are specified as 0 or per pixel.
         {
                 fscanf(in, "%d %d %d", &red, &green, &blue);
                 p->rgb[i].red = red;
