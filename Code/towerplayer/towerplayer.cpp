@@ -371,10 +371,10 @@ uint8_t* Convert_To_Individual_RGB32(tannode *tanll)
                     indivRBG32[j] = indivRBG32[j] | (p->rgb[i + 32].red >> 4);
                 }
                 if (i + 33 < p->numPixels) {
-                    indivRBG32[j+1] = indivRBG32[j+1] | (p->rgb[i + 33].green >> 4);
+                    indivRBG32[j+1] = indivRBG32[j+1] | (p->rgb[i + 32].green >> 4);
                 }
                 if (i + 34 < p->numPixels) {
-                    indivRBG32[j+2] = indivRBG32[j+2] | (p->rgb[i + 34].blue >> 4);
+                    indivRBG32[j+2] = indivRBG32[j+2] | (p->rgb[i + 32].blue >> 4);
                 }
         }
         return indivRBG32;
