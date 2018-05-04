@@ -36,23 +36,24 @@
 \BOOKMARK [2][-]{subsection.A.2}{LightBar 3D Model}{appendix.A}% 36
 \BOOKMARK [1][-]{appendix.B}{Tables and Figures}{}% 37
 \BOOKMARK [2][-]{subsection.B.1}{Arduino / Receiver Design Specification}{appendix.B}% 38
-\BOOKMARK [2][-]{subsection.B.2}{Battery Design Specification}{appendix.B}% 39
-\BOOKMARK [2][-]{subsection.B.3}{LED Design Specification}{appendix.B}% 40
-\BOOKMARK [2][-]{subsection.B.4}{LED Specification Adjustments}{appendix.B}% 41
-\BOOKMARK [2][-]{subsection.B.5}{Wireless Design Specification}{appendix.B}% 42
-\BOOKMARK [2][-]{subsection.B.6}{Gantt Chart}{appendix.B}% 43
-\BOOKMARK [2][-]{subsection.B.7}{Bill of Materials}{appendix.B}% 44
-\BOOKMARK [2][-]{subsection.B.8}{Prototype Progress}{appendix.B}% 45
-\BOOKMARK [2][-]{subsection.B.9}{Hardware List/Cost of Materials}{appendix.B}% 46
-\BOOKMARK [1][-]{appendix.C}{Computer Programs}{}% 47
-\BOOKMARK [1][-]{appendix.D}{Vendor Data Sheets}{}% 48
-\BOOKMARK [2][-]{subsection.D.1}{Xbee Transmitter Data Sheet}{appendix.D}% 49
-\BOOKMARK [2][-]{subsection.D.2}{Atmega 328P Data Sheet}{appendix.D}% 50
-\BOOKMARK [2][-]{subsection.D.3}{Xbee Shield Data Sheet}{appendix.D}% 51
-\BOOKMARK [2][-]{subsection.D.4}{9V Battery Data Sheet}{appendix.D}% 52
-\BOOKMARK [1][-]{appendix.E}{Shedule}{}% 53
-\BOOKMARK [2][-]{subsection.E.1}{Timeline - Diagram}{appendix.E}% 54
-\BOOKMARK [2][-]{subsection.E.2}{Schedule - Orignally Planned}{appendix.E}% 55
-\BOOKMARK [2][-]{subsection.E.3}{Schedule - Executed}{appendix.E}% 56
-\BOOKMARK [1][-]{appendix.F}{DFMEA Worksheet}{}% 57
-\BOOKMARK [1][-]{appendix.G}{Overview of Folder/File Organization}{}% 58
+\BOOKMARK [2][-]{subsection.B.2}{Circuit Diagram}{appendix.B}% 39
+\BOOKMARK [2][-]{subsection.B.3}{Battery Design Specification}{appendix.B}% 40
+\BOOKMARK [2][-]{subsection.B.4}{LED Design Specification}{appendix.B}% 41
+\BOOKMARK [2][-]{subsection.B.5}{LED Specification Adjustments}{appendix.B}% 42
+\BOOKMARK [2][-]{subsection.B.6}{Wireless Design Specification}{appendix.B}% 43
+\BOOKMARK [2][-]{subsection.B.7}{Gantt Chart}{appendix.B}% 44
+\BOOKMARK [2][-]{subsection.B.8}{Bill of Materials}{appendix.B}% 45
+\BOOKMARK [2][-]{subsection.B.9}{Prototype Progress}{appendix.B}% 46
+\BOOKMARK [2][-]{subsection.B.10}{Hardware List/Cost of Materials}{appendix.B}% 47
+\BOOKMARK [1][-]{appendix.C}{Computer Programs}{}% 48
+\BOOKMARK [1][-]{appendix.D}{Vendor Data Sheets}{}% 49
+\BOOKMARK [2][-]{subsection.D.1}{Xbee Transmitter Data Sheet}{appendix.D}% 50
+\BOOKMARK [2][-]{subsection.D.2}{Atmega 328P Data Sheet}{appendix.D}% 51
+\BOOKMARK [2][-]{subsection.D.3}{Xbee Shield Data Sheet}{appendix.D}% 52
+\BOOKMARK [2][-]{subsection.D.4}{9V Battery Data Sheet}{appendix.D}% 53
+\BOOKMARK [1][-]{appendix.E}{Shedule}{}% 54
+\BOOKMARK [2][-]{subsection.E.1}{Timeline - Diagram}{appendix.E}% 55
+\BOOKMARK [2][-]{subsection.E.2}{Schedule - Orignally Planned}{appendix.E}% 56
+\BOOKMARK [2][-]{subsection.E.3}{Schedule - Executed}{appendix.E}% 57
+\BOOKMARK [1][-]{appendix.F}{DFMEA Worksheet}{}% 58
+\BOOKMARK [1][-]{appendix.G}{Overview of Folder/File Organization}{}% 59

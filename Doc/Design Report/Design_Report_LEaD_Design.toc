@@ -11,7 +11,7 @@
 \contentsline {subsection}{\numberline {5.1}Battery Design}{9}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Arduino / Receiver Design}{10}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}LED Design}{10}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Wireless Design}{11}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.4}Wireless Design}{10}{subsection.5.4}
 \contentsline {subsection}{\numberline {5.5}LightBar Design}{11}{subsection.5.5}
 \contentsline {section}{\numberline {6}Concept Selection}{12}{section.6}
 \contentsline {subsection}{\numberline {6.1}9V Battery vs 18650 Battery}{12}{subsection.6.1}
@@ -36,23 +36,24 @@
 \contentsline {subsection}{\numberline {A.2}LightBar 3D Model}{21}{subsection.A.2}
 \contentsline {section}{\numberline {B}Tables and Figures}{23}{appendix.B}
 \contentsline {subsection}{\numberline {B.1}Arduino / Receiver Design Specification}{23}{subsection.B.1}
-\contentsline {subsection}{\numberline {B.2}Battery Design Specification}{23}{subsection.B.2}
-\contentsline {subsection}{\numberline {B.3}LED Design Specification}{24}{subsection.B.3}
-\contentsline {subsection}{\numberline {B.4}LED Specification Adjustments}{25}{subsection.B.4}
-\contentsline {subsection}{\numberline {B.5}Wireless Design Specification}{26}{subsection.B.5}
-\contentsline {subsection}{\numberline {B.6}Gantt Chart}{26}{subsection.B.6}
-\contentsline {subsection}{\numberline {B.7}Bill of Materials}{27}{subsection.B.7}
-\contentsline {subsection}{\numberline {B.8}Prototype Progress}{28}{subsection.B.8}
-\contentsline {subsection}{\numberline {B.9}Hardware List/Cost of Materials}{29}{subsection.B.9}
-\contentsline {section}{\numberline {C}Computer Programs}{30}{appendix.C}
-\contentsline {section}{\numberline {D}Vendor Data Sheets}{31}{appendix.D}
-\contentsline {subsection}{\numberline {D.1}Xbee Transmitter Data Sheet}{31}{subsection.D.1}
-\contentsline {subsection}{\numberline {D.2}Atmega 328P Data Sheet}{32}{subsection.D.2}
-\contentsline {subsection}{\numberline {D.3}Xbee Shield Data Sheet}{33}{subsection.D.3}
-\contentsline {subsection}{\numberline {D.4}9V Battery Data Sheet}{34}{subsection.D.4}
-\contentsline {section}{\numberline {E}Shedule}{35}{appendix.E}
-\contentsline {subsection}{\numberline {E.1}Timeline - Diagram}{35}{subsection.E.1}
-\contentsline {subsection}{\numberline {E.2}Schedule - Orignally Planned}{35}{subsection.E.2}
-\contentsline {subsection}{\numberline {E.3}Schedule - Executed}{35}{subsection.E.3}
-\contentsline {section}{\numberline {F}DFMEA Worksheet}{37}{appendix.F}
-\contentsline {section}{\numberline {G}Overview of Folder/File Organization}{44}{appendix.G}
+\contentsline {subsection}{\numberline {B.2}Circuit Diagram}{23}{subsection.B.2}
+\contentsline {subsection}{\numberline {B.3}Battery Design Specification}{24}{subsection.B.3}
+\contentsline {subsection}{\numberline {B.4}LED Design Specification}{24}{subsection.B.4}
+\contentsline {subsection}{\numberline {B.5}LED Specification Adjustments}{25}{subsection.B.5}
+\contentsline {subsection}{\numberline {B.6}Wireless Design Specification}{26}{subsection.B.6}
+\contentsline {subsection}{\numberline {B.7}Gantt Chart}{27}{subsection.B.7}
+\contentsline {subsection}{\numberline {B.8}Bill of Materials}{27}{subsection.B.8}
+\contentsline {subsection}{\numberline {B.9}Prototype Progress}{27}{subsection.B.9}
+\contentsline {subsection}{\numberline {B.10}Hardware List/Cost of Materials}{27}{subsection.B.10}
+\contentsline {section}{\numberline {C}Computer Programs}{31}{appendix.C}
+\contentsline {section}{\numberline {D}Vendor Data Sheets}{32}{appendix.D}
+\contentsline {subsection}{\numberline {D.1}Xbee Transmitter Data Sheet}{32}{subsection.D.1}
+\contentsline {subsection}{\numberline {D.2}Atmega 328P Data Sheet}{33}{subsection.D.2}
+\contentsline {subsection}{\numberline {D.3}Xbee Shield Data Sheet}{34}{subsection.D.3}
+\contentsline {subsection}{\numberline {D.4}9V Battery Data Sheet}{35}{subsection.D.4}
+\contentsline {section}{\numberline {E}Shedule}{36}{appendix.E}
+\contentsline {subsection}{\numberline {E.1}Timeline - Diagram}{36}{subsection.E.1}
+\contentsline {subsection}{\numberline {E.2}Schedule - Orignally Planned}{36}{subsection.E.2}
+\contentsline {subsection}{\numberline {E.3}Schedule - Executed}{36}{subsection.E.3}
+\contentsline {section}{\numberline {F}DFMEA Worksheet}{38}{appendix.F}
+\contentsline {section}{\numberline {G}Overview of Folder/File Organization}{45}{appendix.G}
