@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.9)  2 MAY 2018 11:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.9)  3 MAY 2018 19:05
 entering extended mode
 **./TeamPortfolio_LEaD_Design.tex
 (TeamPortfolio_LEaD_Design.tex
@@ -376,6 +376,9 @@ LaTeX Warning: Label `overflow' multiply defined.
 
 LaTeX Warning: Label `overflow' multiply defined.
 
+
+LaTeX Warning: Label `overflow' multiply defined.
+
 )
 \openout1 = `TeamPortfolio_LEaD_Design.aux'.
 
@@ -494,7 +497,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 53.
 ("D:\Program Files (x86)\Latex\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<assets/uislogan.png, id=235, 1203.49625pt x 243.91125pt>
+<assets/uislogan.png, id=243, 1203.49625pt x 243.91125pt>
 File: assets/uislogan.png Graphic file (type png)
 
 <use assets/uislogan.png>
@@ -521,7 +524,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 90.
  [4] [5]
-<assets/9-14_Project_Agenda_1.jpg, id=331, 1523.6925pt x 2031.59pt>
+<assets/9-14_Project_Agenda_1.jpg, id=341, 1523.6925pt x 2031.59pt>
 File: assets/9-14_Project_Agenda_1.jpg Graphic file (type jpg)
 
 <use assets/9-14_Project_Agenda_1.jpg>
@@ -529,7 +532,7 @@ Package pdftex.def Info: assets/9-14_Project_Agenda_1.jpg used on input line 12
 7.
 (pdftex.def)             Requested size: 398.33858pt x 531.1149pt.
 
-<assets/9-14_Project_Agenda_2.jpg, id=332, 2031.59pt x 1523.6925pt>
+<assets/9-14_Project_Agenda_2.jpg, id=342, 2031.59pt x 1523.6925pt>
 File: assets/9-14_Project_Agenda_2.jpg Graphic file (type jpg)
 
 <use assets/9-14_Project_Agenda_2.jpg>
@@ -686,7 +689,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 438--444
 
 [19
 
-] <assets/Team_Info.png, id=394, 1706.375pt x 2208.25pt>
+] <assets/Team_Info.png, id=404, 1706.375pt x 2208.25pt>
 File: assets/Team_Info.png Graphic file (type png)
 
 <use assets/Team_Info.png>
@@ -695,14 +698,14 @@ Package pdftex.def Info: assets/Team_Info.png used on input line 478.
  [20
 
  <./assets/Team_Info.png>]
-<assets/Proof_Of_Design.png, id=401, 1706.375pt x 2208.25pt>
+<assets/Proof_Of_Design.png, id=411, 1706.375pt x 2208.25pt>
 File: assets/Proof_Of_Design.png Graphic file (type png)
 
 <use assets/Proof_Of_Design.png>
 Package pdftex.def Info: assets/Proof_Of_Design.png used on input line 528.
 (pdftex.def)             Requested size: 341.42517pt x 398.31023pt.
  [21] [22 <./assets/Proof_Of_Design.png>]
-<assets/2_Problem_Statement_Update.pdf, id=412, 614.295pt x 794.97pt>
+<assets/2_Problem_Statement_Update.pdf, id=422, 614.295pt x 794.97pt>
 File: assets/2_Problem_Statement_Update.pdf Graphic file (type pdf)
 
 <use assets/2_Problem_Statement_Update.pdf>
@@ -716,7 +719,7 @@ ne 540.
 pdfTeX warning: pdflatex (file ./assets/2_Problem_Statement_Update.pdf): PDF in
 clusion: invalid other resource which is no dict (key 'ProcSets', type <array>)
 ; ignored.
->] <assets/3_General_Specifications.pdf, id=431, 614.295pt x 794.97pt>
+>] <assets/3_General_Specifications.pdf, id=441, 614.295pt x 794.97pt>
 File: assets/3_General_Specifications.pdf Graphic file (type pdf)
 
 <use assets/3_General_Specifications.pdf>
@@ -730,7 +733,7 @@ Package pdftex.def Info: assets/3_General_Specifications.pdf used on input line
 pdfTeX warning: pdflatex (file ./assets/3_General_Specifications.pdf): PDF incl
 usion: invalid other resource which is no dict (key 'ProcSets', type <array>); 
 ignored.
->] <assets/Lightbar_Model.jpg, id=445, 1245.9047pt x 490.83376pt>
+>] <assets/Lightbar_Model.jpg, id=455, 1245.9047pt x 490.83376pt>
 File: assets/Lightbar_Model.jpg Graphic file (type jpg)
 
 <use assets/Lightbar_Model.jpg>
@@ -748,152 +751,187 @@ Overfull \hbox (13.94182pt too wide) in paragraph at lines 558--559
 ] [27
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 646--650
+Underfull \hbox (badness 10000) in paragraph at lines 619--620
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 621--623
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 624--626
 
  []
 
 [28
 
 ]
-Overfull \hbox (5.87373pt too wide) in paragraph at lines 654--670
+Underfull \hbox (badness 10000) in paragraph at lines 660--664
+
+ []
+
+[29
+
+]
+Overfull \hbox (5.87373pt too wide) in paragraph at lines 668--684
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--670
+Underfull \hbox (badness 10000) in paragraph at lines 668--684
 
  []
 
-[29] <assets/Arduino_Receiver_Diagram.png, id=468, 1021.56656pt x 461.47406pt>
+[30] <assets/Arduino_Receiver_Diagram.png, id=482, 1021.56656pt x 461.47406pt>
 File: assets/Arduino_Receiver_Diagram.png Graphic file (type png)
 
 <use assets/Arduino_Receiver_Diagram.png>
 Package pdftex.def Info: assets/Arduino_Receiver_Diagram.png used on input line
- 680.
+ 694.
 (pdftex.def)             Requested size: 398.33142pt x 270.30273pt.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [30 <./assets/Arduino_Receiver_Diagram.png>]
+ [31 <./assets/Arduino_Receiver_Diagram.png>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- <assets/9V_Battery.jpg, id=476, 1385.175pt x 849.1725pt>
+ <assets/9V_Battery.jpg, id=491, 1385.175pt x 849.1725pt>
 File: assets/9V_Battery.jpg Graphic file (type jpg)
 
 <use assets/9V_Battery.jpg>
-Package pdftex.def Info: assets/9V_Battery.jpg used on input line 731.
+Package pdftex.def Info: assets/9V_Battery.jpg used on input line 745.
 (pdftex.def)             Requested size: 455.22806pt x 284.52962pt.
 
-<assets/18650_Battery.jpg, id=477, 1385.175pt x 852.18375pt>
+<assets/18650_Battery.jpg, id=492, 1385.175pt x 852.18375pt>
 File: assets/18650_Battery.jpg Graphic file (type jpg)
 
 <use assets/18650_Battery.jpg>
-Package pdftex.def Info: assets/18650_Battery.jpg used on input line 737.
+Package pdftex.def Info: assets/18650_Battery.jpg used on input line 751.
 (pdftex.def)             Requested size: 455.22806pt x 284.52432pt.
- [31]
+ [32]
 
-LaTeX Warning: Text page 32 contains only floats.
+LaTeX Warning: Text page 33 contains only floats.
 
 
 Overfull \vbox (3.6239pt too high) has occurred while \output is active []
 
 
-[32 <./assets/9V_Battery.jpg> <./assets/18650_Battery.jpg>]
-<assets/SeriesLED.jpg, id=489, 389.2725pt x 225.6795pt>
+[33 <./assets/9V_Battery.jpg> <./assets/18650_Battery.jpg>]
+<assets/SeriesLED.jpg, id=503, 389.2725pt x 225.6795pt>
 File: assets/SeriesLED.jpg Graphic file (type jpg)
 
 <use assets/SeriesLED.jpg>
-Package pdftex.def Info: assets/SeriesLED.jpg used on input line 764.
+Package pdftex.def Info: assets/SeriesLED.jpg used on input line 778.
 (pdftex.def)             Requested size: 490.82451pt x 284.52756pt.
 
-Overfull \hbox (21.06949pt too wide) in paragraph at lines 764--765
+Overfull \hbox (21.06949pt too wide) in paragraph at lines 778--779
  [][] 
  []
 
-<assets/ParallelLED.jpg, id=490, 514.17094pt x 417.81094pt>
+<assets/ParallelLED.jpg, id=504, 514.17094pt x 417.81094pt>
 File: assets/ParallelLED.jpg Graphic file (type jpg)
 
 <use assets/ParallelLED.jpg>
-Package pdftex.def Info: assets/ParallelLED.jpg used on input line 770.
+Package pdftex.def Info: assets/ParallelLED.jpg used on input line 784.
 (pdftex.def)             Requested size: 350.16512pt x 284.52756pt.
- [33
+ [34
 
- <./assets/SeriesLED.jpg>] [34 <./assets/ParallelLED.jpg>] <assets/Zigbee.png, 
-id=501, 939.51pt x 857.2025pt>
+ <./assets/SeriesLED.jpg>] [35 <./assets/ParallelLED.jpg>] <assets/Zigbee.png, 
+id=515, 939.51pt x 857.2025pt>
 File: assets/Zigbee.png Graphic file (type png)
 
 <use assets/Zigbee.png>
-Package pdftex.def Info: assets/Zigbee.png used on input line 809.
+Package pdftex.def Info: assets/Zigbee.png used on input line 823.
 (pdftex.def)             Requested size: 343.02582pt x 312.9803pt.
- [35
+ [36
 
  <./assets/Zigbee.png>]
-<assets/What_We_Have.png, id=507, 1624.0675pt x 317.185pt>
+<assets/What_We_Have.png, id=521, 1624.0675pt x 317.185pt>
 File: assets/What_We_Have.png Graphic file (type png)
 
 <use assets/What_We_Have.png>
-Package pdftex.def Info: assets/What_We_Have.png used on input line 825.
+Package pdftex.def Info: assets/What_We_Have.png used on input line 839.
 (pdftex.def)             Requested size: 483.69684pt x 94.46413pt.
 
-Overfull \hbox (13.94182pt too wide) in paragraph at lines 825--826
+Overfull \hbox (13.94182pt too wide) in paragraph at lines 839--840
  [][] 
  []
 
-<assets/What_We_Want.png, id=508, 1619.04875pt x 315.1775pt>
+<assets/What_We_Want.png, id=522, 1619.04875pt x 315.1775pt>
 File: assets/What_We_Want.png Graphic file (type png)
 
 <use assets/What_We_Want.png>
-Package pdftex.def Info: assets/What_We_Want.png used on input line 835.
+Package pdftex.def Info: assets/What_We_Want.png used on input line 849.
 (pdftex.def)             Requested size: 483.69684pt x 94.15962pt.
 
-Overfull \hbox (13.94182pt too wide) in paragraph at lines 835--836
+Overfull \hbox (13.94182pt too wide) in paragraph at lines 849--850
  [][] 
  []
 
 
-<assets/PCRunningTowerPlayerFlowChartDiagram.png, id=509, 1141.26375pt x 787.94
+<assets/PCRunningTowerPlayerFlowChartDiagram.png, id=523, 1141.26375pt x 787.94
 376pt>
 File: assets/PCRunningTowerPlayerFlowChartDiagram.png Graphic file (type png)
  <use assets/PCRunningTowerPlayerFlowChartDiagram.png>
 Package pdftex.def Info: assets/PCRunningTowerPlayerFlowChartDiagram.png used o
-n input line 845.
+n input line 859.
 (pdftex.def)             Requested size: 483.69684pt x 333.9519pt.
 
-Overfull \hbox (13.94182pt too wide) in paragraph at lines 845--846
+Overfull \hbox (13.94182pt too wide) in paragraph at lines 859--860
  [][] 
  []
 
-[36
+[37
 
- <./assets/What_We_Have.png> <./assets/What_We_Want.png>] [37 <./assets/PCRunni
+ <./assets/What_We_Have.png> <./assets/What_We_Want.png>] [38 <./assets/PCRunni
 ngTowerPlayerFlowChartDiagram.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 856--857
+Underfull \hbox (badness 10000) in paragraph at lines 867--868
 
  []
 
-[38
+<assets/circuit_schematic.png, id=537, 875.27pt x 471.7625pt>
+File: assets/circuit_schematic.png Graphic file (type png)
 
-] [39]
-Underfull \hbox (badness 10000) in paragraph at lines 929--930
+<use assets/circuit_schematic.png>
+Package pdftex.def Info: assets/circuit_schematic.png used on input line 871.
+(pdftex.def)             Requested size: 483.69714pt x 412.56801pt.
+
+Overfull \hbox (13.94212pt too wide) in paragraph at lines 871--872
+ [][] 
+ []
+
+[39
+
+ <./assets/circuit_schematic.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 881--882
 
  []
 
-[40]
-Underfull \hbox (badness 10000) in paragraph at lines 935--936
+[40
+
+] [41]
+Underfull \hbox (badness 10000) in paragraph at lines 954--955
 
  []
 
-[41]
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 960--961
+
+ []
+
+[43]
 
 pdfTeX warning: pdflatex (file ./assets/DFMEA_LEaD_Design_PDF.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<assets/DFMEA_LEaD_Design_PDF.pdf, id=539, 614.295pt x 794.97pt>
+<assets/DFMEA_LEaD_Design_PDF.pdf, id=561, 614.295pt x 794.97pt>
 File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
 
 <use assets/DFMEA_LEaD_Design_PDF.pdf>
-Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf used on input line 94
-8.
+Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf used on input line 97
+3.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -901,8 +939,8 @@ pdfTeX warning: pdflatex (file ./assets/DFMEA_LEaD_Design_PDF.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
 File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
 <use assets/DFMEA_LEaD_Design_PDF.pdf>
-Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf used on input line 94
-8.
+Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf used on input line 97
+3.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -912,221 +950,221 @@ on: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./assets/DFMEA_LEaD_Design_PDF.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<assets/DFMEA_LEaD_Design_PDF.pdf, id=542, page=1, 614.295pt x 794.97pt>
+<assets/DFMEA_LEaD_Design_PDF.pdf, id=564, page=1, 614.295pt x 794.97pt>
 File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
 
 <use assets/DFMEA_LEaD_Design_PDF.pdf, page 1>
 Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page1 used on input 
-line 948.
+line 973.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
 
 <use assets/DFMEA_LEaD_Design_PDF.pdf, page 1>
 Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page1 used on input 
-line 948.
+line 973.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
- [42]
+ [44]
 File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
 
 <use assets/DFMEA_LEaD_Design_PDF.pdf, page 1>
 Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page1 used on input 
-line 948.
+line 973.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
 
 <use assets/DFMEA_LEaD_Design_PDF.pdf, page 1>
 Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page1 used on input 
-line 948.
+line 973.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 948.
+(caption)                particular \caption on input line 973.
 See the caption package documentation for explanation.
 
 File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
 <use assets/DFMEA_LEaD_Design_PDF.pdf, page 1>
 Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page1 used on input 
-line 948.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
- [43 <./assets/DFMEA_LEaD_Design_PDF.pdf>]
-
-pdfTeX warning: pdflatex (file ./assets/DFMEA_LEaD_Design_PDF.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-<assets/DFMEA_LEaD_Design_PDF.pdf, id=565, page=2, 614.295pt x 794.97pt>
-File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
-
-<use assets/DFMEA_LEaD_Design_PDF.pdf, page 2>
-Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page2 used on input 
-line 948.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
-
-<use assets/DFMEA_LEaD_Design_PDF.pdf, page 2>
-Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page2 used on input 
-line 948.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 948.
-See the caption package documentation for explanation.
-
-File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
-<use assets/DFMEA_LEaD_Design_PDF.pdf, page 2>
-Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page2 used on input 
-line 948.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
- [44 <./assets/DFMEA_LEaD_Design_PDF.pdf>]
-
-pdfTeX warning: pdflatex (file ./assets/DFMEA_LEaD_Design_PDF.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-<assets/DFMEA_LEaD_Design_PDF.pdf, id=572, page=3, 614.295pt x 794.97pt>
-File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
-
-<use assets/DFMEA_LEaD_Design_PDF.pdf, page 3>
-Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page3 used on input 
-line 948.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
-
-<use assets/DFMEA_LEaD_Design_PDF.pdf, page 3>
-Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page3 used on input 
-line 948.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-
-
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 948.
-See the caption package documentation for explanation.
-
-File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
-<use assets/DFMEA_LEaD_Design_PDF.pdf, page 3>
-Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page3 used on input 
-line 948.
+line 973.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [45 <./assets/DFMEA_LEaD_Design_PDF.pdf>]
 
 pdfTeX warning: pdflatex (file ./assets/DFMEA_LEaD_Design_PDF.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<assets/DFMEA_LEaD_Design_PDF.pdf, id=579, page=4, 614.295pt x 794.97pt>
+<assets/DFMEA_LEaD_Design_PDF.pdf, id=586, page=2, 614.295pt x 794.97pt>
 File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
 
-<use assets/DFMEA_LEaD_Design_PDF.pdf, page 4>
-Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page4 used on input 
-line 948.
+<use assets/DFMEA_LEaD_Design_PDF.pdf, page 2>
+Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page2 used on input 
+line 973.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
 
-<use assets/DFMEA_LEaD_Design_PDF.pdf, page 4>
-Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page4 used on input 
-line 948.
+<use assets/DFMEA_LEaD_Design_PDF.pdf, page 2>
+Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page2 used on input 
+line 973.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 948.
+(caption)                particular \caption on input line 973.
 See the caption package documentation for explanation.
 
 File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
-<use assets/DFMEA_LEaD_Design_PDF.pdf, page 4>
-Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page4 used on input 
-line 948.
+<use assets/DFMEA_LEaD_Design_PDF.pdf, page 2>
+Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page2 used on input 
+line 973.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [46 <./assets/DFMEA_LEaD_Design_PDF.pdf>]
 
 pdfTeX warning: pdflatex (file ./assets/DFMEA_LEaD_Design_PDF.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<assets/DFMEA_LEaD_Design_PDF.pdf, id=593, page=5, 614.295pt x 794.97pt>
+<assets/DFMEA_LEaD_Design_PDF.pdf, id=593, page=3, 614.295pt x 794.97pt>
 File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
 
-<use assets/DFMEA_LEaD_Design_PDF.pdf, page 5>
-Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page5 used on input 
-line 948.
+<use assets/DFMEA_LEaD_Design_PDF.pdf, page 3>
+Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page3 used on input 
+line 973.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
 
-<use assets/DFMEA_LEaD_Design_PDF.pdf, page 5>
-Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page5 used on input 
-line 948.
+<use assets/DFMEA_LEaD_Design_PDF.pdf, page 3>
+Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page3 used on input 
+line 973.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 948.
+(caption)                particular \caption on input line 973.
 See the caption package documentation for explanation.
 
 File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
-<use assets/DFMEA_LEaD_Design_PDF.pdf, page 5>
-Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page5 used on input 
-line 948.
+<use assets/DFMEA_LEaD_Design_PDF.pdf, page 3>
+Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page3 used on input 
+line 973.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [47 <./assets/DFMEA_LEaD_Design_PDF.pdf>]
 
 pdfTeX warning: pdflatex (file ./assets/DFMEA_LEaD_Design_PDF.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<assets/DFMEA_LEaD_Design_PDF.pdf, id=600, page=6, 614.295pt x 794.97pt>
+<assets/DFMEA_LEaD_Design_PDF.pdf, id=600, page=4, 614.295pt x 794.97pt>
 File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
 
-<use assets/DFMEA_LEaD_Design_PDF.pdf, page 6>
-Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page6 used on input 
-line 948.
+<use assets/DFMEA_LEaD_Design_PDF.pdf, page 4>
+Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page4 used on input 
+line 973.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
 
-<use assets/DFMEA_LEaD_Design_PDF.pdf, page 6>
-Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page6 used on input 
-line 948.
+<use assets/DFMEA_LEaD_Design_PDF.pdf, page 4>
+Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page4 used on input 
+line 973.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 948.
+(caption)                particular \caption on input line 973.
+See the caption package documentation for explanation.
+
+File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
+<use assets/DFMEA_LEaD_Design_PDF.pdf, page 4>
+Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page4 used on input 
+line 973.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [48 <./assets/DFMEA_LEaD_Design_PDF.pdf>]
+
+pdfTeX warning: pdflatex (file ./assets/DFMEA_LEaD_Design_PDF.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<assets/DFMEA_LEaD_Design_PDF.pdf, id=614, page=5, 614.295pt x 794.97pt>
+File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
+
+<use assets/DFMEA_LEaD_Design_PDF.pdf, page 5>
+Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page5 used on input 
+line 973.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
+
+<use assets/DFMEA_LEaD_Design_PDF.pdf, page 5>
+Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page5 used on input 
+line 973.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 973.
+See the caption package documentation for explanation.
+
+File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
+<use assets/DFMEA_LEaD_Design_PDF.pdf, page 5>
+Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page5 used on input 
+line 973.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [49 <./assets/DFMEA_LEaD_Design_PDF.pdf>]
+
+pdfTeX warning: pdflatex (file ./assets/DFMEA_LEaD_Design_PDF.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<assets/DFMEA_LEaD_Design_PDF.pdf, id=622, page=6, 614.295pt x 794.97pt>
+File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
+
+<use assets/DFMEA_LEaD_Design_PDF.pdf, page 6>
+Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page6 used on input 
+line 973.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
+
+<use assets/DFMEA_LEaD_Design_PDF.pdf, page 6>
+Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page6 used on input 
+line 973.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 973.
 See the caption package documentation for explanation.
 
 File: assets/DFMEA_LEaD_Design_PDF.pdf Graphic file (type pdf)
 <use assets/DFMEA_LEaD_Design_PDF.pdf, page 6>
 Package pdftex.def Info: assets/DFMEA_LEaD_Design_PDF.pdf, page6 used on input 
-line 948.
+line 973.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
- [48 <./assets/DFMEA_LEaD_Design_PDF.pdf>] <assets/Bill_of_Materials_Pg1.png, i
-d=607, 505.89pt x 585.68813pt>
+ [50 <./assets/DFMEA_LEaD_Design_PDF.pdf>] <assets/Bill_of_Materials_Pg1.png, i
+d=629, 505.89pt x 585.68813pt>
 File: assets/Bill_of_Materials_Pg1.png Graphic file (type png)
 
 <use assets/Bill_of_Materials_Pg1.png>
-Package pdftex.def Info: assets/Bill_of_Materials_Pg1.png used on input line 96
-0.
+Package pdftex.def Info: assets/Bill_of_Materials_Pg1.png used on input line 98
+5.
 (pdftex.def)             Requested size: 398.33858pt x 461.17822pt.
 
-<assets/Bill_of_Materials_Pg2.png, id=608, 535.2497pt x 580.41844pt>
+<assets/Bill_of_Materials_Pg2.png, id=630, 535.2497pt x 580.41844pt>
 File: assets/Bill_of_Materials_Pg2.png Graphic file (type png)
 
 <use assets/Bill_of_Materials_Pg2.png>
-Package pdftex.def Info: assets/Bill_of_Materials_Pg2.png used on input line 96
-6.
+Package pdftex.def Info: assets/Bill_of_Materials_Pg2.png used on input line 99
+1.
 (pdftex.def)             Requested size: 398.33858pt x 431.97388pt.
- [49 <./assets/Bill_of_Materials_Pg1.png>] [50 <./assets/Bill_of_Materials_Pg2.
+ [51 <./assets/Bill_of_Materials_Pg1.png>] [52 <./assets/Bill_of_Materials_Pg2.
 png>]
-<assets/prototype.jpg, id=622, 3044.37375pt x 1634.105pt>
+<assets/prototype.jpg, id=643, 3044.37375pt x 1634.105pt>
 File: assets/prototype.jpg Graphic file (type jpg)
 
 <use assets/prototype.jpg>
-Package pdftex.def Info: assets/prototype.jpg used on input line 983.
+Package pdftex.def Info: assets/prototype.jpg used on input line 1008.
 (pdftex.def)             Requested size: 398.33858pt x 213.8125pt.
- [51 <./assets/prototype.jpg>] [52] [53]
-<assets/HardwareList.jpg, id=636, 1067.48813pt x 1374.63562pt>
+ [53 <./assets/prototype.jpg>] [54] [55]
+<assets/HardwareList.jpg, id=658, 1067.48813pt x 1374.63562pt>
 File: assets/HardwareList.jpg Graphic file (type jpg)
 
 <use assets/HardwareList.jpg>
-Package pdftex.def Info: assets/HardwareList.jpg used on input line 1030.
+Package pdftex.def Info: assets/HardwareList.jpg used on input line 1055.
 (pdftex.def)             Requested size: 483.69684pt x 622.88025pt.
 
-Overfull \hbox (13.94182pt too wide) in paragraph at lines 1030--1031
+Overfull \hbox (13.94182pt too wide) in paragraph at lines 1055--1056
  [][] 
  []
 
-[54] [55 <./assets/HardwareList.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1040--1045
+[56] [57 <./assets/HardwareList.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 1065--1070
 
  []
 
@@ -1134,12 +1172,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1040--1045
 
 pdfTeX warning: pdflatex (file ./assets/LEaD_Design_Team_Contract.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<assets/LEaD_Design_Team_Contract.pdf, id=650, 614.295pt x 794.97pt>
+<assets/LEaD_Design_Team_Contract.pdf, id=671, 614.295pt x 794.97pt>
 File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
 <use assets/LEaD_Design_Team_Contract.pdf>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf used on input lin
-e 1049.
+e 1074.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -1148,7 +1186,7 @@ lusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 <use assets/LEaD_Design_Team_Contract.pdf>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf used on input lin
-e 1049.
+e 1074.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -1158,144 +1196,144 @@ lusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./assets/LEaD_Design_Team_Contract.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<assets/LEaD_Design_Team_Contract.pdf, id=653, page=1, 614.295pt x 794.97pt>
+<assets/LEaD_Design_Team_Contract.pdf, id=674, page=1, 614.295pt x 794.97pt>
 File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
 <use assets/LEaD_Design_Team_Contract.pdf, page 1>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page1 used on in
-put line 1049.
+put line 1074.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
 <use assets/LEaD_Design_Team_Contract.pdf, page 1>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page1 used on in
-put line 1049.
+put line 1074.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
- [56
+ [58
 
 ]
 File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
 <use assets/LEaD_Design_Team_Contract.pdf, page 1>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page1 used on in
-put line 1049.
+put line 1074.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
 <use assets/LEaD_Design_Team_Contract.pdf, page 1>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page1 used on in
-put line 1049.
+put line 1074.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
 <use assets/LEaD_Design_Team_Contract.pdf, page 1>
 Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page1 used on in
-put line 1049.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
- [57 <./assets/LEaD_Design_Team_Contract.pdf>]
-
-pdfTeX warning: pdflatex (file ./assets/LEaD_Design_Team_Contract.pdf): PDF inc
-lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<assets/LEaD_Design_Team_Contract.pdf, id=683, page=2, 614.295pt x 794.97pt>
-File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
-
-<use assets/LEaD_Design_Team_Contract.pdf, page 2>
-Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page2 used on in
-put line 1049.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
-
-<use assets/LEaD_Design_Team_Contract.pdf, page 2>
-Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page2 used on in
-put line 1049.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
-
-<use assets/LEaD_Design_Team_Contract.pdf, page 2>
-Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page2 used on in
-put line 1049.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
- [58 <./assets/LEaD_Design_Team_Contract.pdf>]
-
-pdfTeX warning: pdflatex (file ./assets/LEaD_Design_Team_Contract.pdf): PDF inc
-lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<assets/LEaD_Design_Team_Contract.pdf, id=689, page=3, 614.295pt x 794.97pt>
-File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
-
-<use assets/LEaD_Design_Team_Contract.pdf, page 3>
-Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page3 used on in
-put line 1049.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
-
-<use assets/LEaD_Design_Team_Contract.pdf, page 3>
-Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page3 used on in
-put line 1049.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
-
-<use assets/LEaD_Design_Team_Contract.pdf, page 3>
-Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page3 used on in
-put line 1049.
+put line 1074.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [59 <./assets/LEaD_Design_Team_Contract.pdf>]
 
 pdfTeX warning: pdflatex (file ./assets/LEaD_Design_Team_Contract.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<assets/LEaD_Design_Team_Contract.pdf, id=695, page=4, 614.295pt x 794.97pt>
+<assets/LEaD_Design_Team_Contract.pdf, id=704, page=2, 614.295pt x 794.97pt>
 File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
-<use assets/LEaD_Design_Team_Contract.pdf, page 4>
-Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page4 used on in
-put line 1049.
+<use assets/LEaD_Design_Team_Contract.pdf, page 2>
+Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page2 used on in
+put line 1074.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
-<use assets/LEaD_Design_Team_Contract.pdf, page 4>
-Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page4 used on in
-put line 1049.
+<use assets/LEaD_Design_Team_Contract.pdf, page 2>
+Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page2 used on in
+put line 1074.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
 
-<use assets/LEaD_Design_Team_Contract.pdf, page 4>
-Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page4 used on in
-put line 1049.
+<use assets/LEaD_Design_Team_Contract.pdf, page 2>
+Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page2 used on in
+put line 1074.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
  [60 <./assets/LEaD_Design_Team_Contract.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1053.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1053.
+
+pdfTeX warning: pdflatex (file ./assets/LEaD_Design_Team_Contract.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
+<assets/LEaD_Design_Team_Contract.pdf, id=710, page=3, 614.295pt x 794.97pt>
+File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
+
+<use assets/LEaD_Design_Team_Contract.pdf, page 3>
+Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page3 used on in
+put line 1074.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
+
+<use assets/LEaD_Design_Team_Contract.pdf, page 3>
+Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page3 used on in
+put line 1074.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
+
+<use assets/LEaD_Design_Team_Contract.pdf, page 3>
+Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page3 used on in
+put line 1074.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [61 <./assets/LEaD_Design_Team_Contract.pdf>]
+
+pdfTeX warning: pdflatex (file ./assets/LEaD_Design_Team_Contract.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
+<assets/LEaD_Design_Team_Contract.pdf, id=717, page=4, 614.295pt x 794.97pt>
+File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
+
+<use assets/LEaD_Design_Team_Contract.pdf, page 4>
+Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page4 used on in
+put line 1074.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
+
+<use assets/LEaD_Design_Team_Contract.pdf, page 4>
+Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page4 used on in
+put line 1074.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: assets/LEaD_Design_Team_Contract.pdf Graphic file (type pdf)
+
+<use assets/LEaD_Design_Team_Contract.pdf, page 4>
+Package pdftex.def Info: assets/LEaD_Design_Team_Contract.pdf, page4 used on in
+put line 1074.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ [62 <./assets/LEaD_Design_Team_Contract.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1078.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1078.
  (TeamPortfolio_LEaD_Design.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1053.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1053.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1078.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1078.
 
 Package rerunfilecheck Info: File `TeamPortfolio_LEaD_Design.out' has not chang
 ed.
-(rerunfilecheck)             Checksum: 24EBF9B328C6EC4B28FF1CFB10BE5317;4157.
+(rerunfilecheck)             Checksum: 03DDE9EF9F5407F452D9DA63BDD2AB9D;4296.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1053.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1078.
  )
 (\end occurred inside a group at level 8)
 
-### simple group (level 8) entered at line 1004 ({)
-### simple group (level 7) entered at line 891 ({)
-### simple group (level 6) entered at line 860 ({)
-### simple group (level 5) entered at line 782 ({)
-### simple group (level 4) entered at line 748 ({)
-### simple group (level 3) entered at line 699 ({)
+### simple group (level 8) entered at line 1029 ({)
+### simple group (level 7) entered at line 916 ({)
+### simple group (level 6) entered at line 885 ({)
+### simple group (level 5) entered at line 796 ({)
+### simple group (level 4) entered at line 762 ({)
+### simple group (level 3) entered at line 713 ({)
 ### simple group (level 2) entered at line 486 ({)
 ### simple group (level 1) entered at line 456 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 9285 strings out of 493333
- 140421 string characters out of 3138764
+ 9297 strings out of 493333
+ 140664 string characters out of 3138764
  334905 words of memory out of 3000000
- 12517 multiletter control sequences out of 15000+200000
+ 12523 multiletter control sequences out of 15000+200000
  14580 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,19n,49p,1212b,1093s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,19n,49p,1212b,1105s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Program Files (x86)/Latex/fonts/type1/public/amsfonts/cm/cm
 bx12.pfb><D:/Program Files (x86)/Latex/fonts/type1/public/amsfonts/cm/cmcsc10.p
 fb><D:/Program Files (x86)/Latex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/
@@ -1304,9 +1342,9 @@ Files (x86)/Latex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files (x8
 6)/Latex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/Late
 x/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/Program Files (x86)/Latex/fonts
 /type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on TeamPortfolio_LEaD_Design.pdf (60 pages, 4573083 bytes).
+Output written on TeamPortfolio_LEaD_Design.pdf (62 pages, 4722803 bytes).
 PDF statistics:
- 770 PDF objects out of 1000 (max. 8388607)
- 147 named destinations out of 1000 (max. 500000)
- 650 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 793 PDF objects out of 1000 (max. 8388607)
+ 152 named destinations out of 1000 (max. 500000)
+ 671 words of extra memory for PDF output out of 10000 (max. 10000000)
 
